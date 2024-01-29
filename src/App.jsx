@@ -11,25 +11,31 @@ import MyInfScrollCont from './components/InfScroll/MyInfScrollCont';
 
 const Wrapper = styled.div`
   position: relative;
+  height: 100vh; // 뷰포트 높이에 맞추어 전체 화면 사용
+  overflow: hidden; // x축 스크롤 방지
+`;
+
+const ContentContainer = styled.div`
   background-color: #ffffff;
-  min-height: 100vh;
-  height: auto; // 페이지 로드 전 배경 테스트용 높이 설정
+  overflow-y: scroll; // y축 스크롤 활성화
+  overflow-x: hidden; // x축 스크롤 방지
+  height: calc(100vh - 50px); // NavBar 높이만큼 제외
+  -webkit-overflow-scrolling: touch; // iOS 스크롤 부드럽게
 `;
 
 const App = () => {
   return (
     <Wrapper>
-      <MyInfScrollCont>
-        <NavBar />
+      <ContentContainer>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/category" element={<Category />} />
           <Route path="/mypage" element={<MyPage />} />
           <Route path="/login" element={<LoginPage />} />
-          {/* <Route path="/category/:category" element={<CategoryPage />} /> */}
-          {/* <Route path="*" element={<ErrorPage />} /> */}
+          {/* 기타 라우트 */}
         </Routes>
-      </MyInfScrollCont>
+      </ContentContainer>
+      <NavBar />
     </Wrapper>
   );
 };
