@@ -26,6 +26,7 @@ const App = () => {
           <Route path="/category" element={<Category />} />
           <Route path="/mypage" element={<MyPage />} />
           <Route path="/login" element={<LoginPage />} />
+          {/* <Route path="/category/:category" element={<CategoryPage />} /> */}
           {/* <Route path="*" element={<ErrorPage />} /> */}
         </Routes>
       </MyInfScrollCont>

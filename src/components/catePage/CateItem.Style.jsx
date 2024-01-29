@@ -8,7 +8,7 @@ export const CateItemWrapper = styled.div`
   padding: 10px;
   margin: 5px;
   background-color: #677d22;
-  // background-color: #d2d999;
+  background-color: #d2d999;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -44,6 +44,6 @@ export const CateTextWrapper = styled.div`
 
 export const CateText = styled.span`
   font-size: 25px;
-  color: #333; // 폰트 색상
-  // color: #666;
+  color: #6b501e;
+  // color: #473513;
 `;
