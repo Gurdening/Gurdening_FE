@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { StyledLoginBtn } from './LoginBtn.Style';
+import * as S from './LoginBtn.Style';
 
 const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
