@@ -6,7 +6,6 @@ import Category from './pages/category/Category';
 import MyPage from './pages/myPage/MyPage';
 import LoginPage from './pages/login/LoginPage';
 import NavBar from './components/navBar/NavBar';
-import MyInfScrollCont from './components/InfScroll/MyInfScrollCont';
 // import ErrorPage from '';
 
 const Wrapper = styled.div`
