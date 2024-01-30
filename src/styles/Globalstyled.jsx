@@ -13,6 +13,12 @@ const GlobalStyled = createGlobalStyle`
   * {
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
   }
 
   body{

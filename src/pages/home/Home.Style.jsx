@@ -16,7 +16,7 @@ export const LogoImgWrapper = styled.div`
   display: flex; // Flexbox를 사용하여 내부 요소를 정렬
   justify-content: center; // 가로축 중앙 정렬
   align-items: center; // 세로축 중앙 정렬
-  margin-top: 10px; // Banner와의 간격을 위한 상단 마진
+  padding-top: 10px; // Banner와의 간격을 위한 상단 마진
 `;
 
 export const LogoImg = styled.img`

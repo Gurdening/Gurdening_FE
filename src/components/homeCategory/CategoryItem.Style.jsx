@@ -24,9 +24,10 @@ export const CateIconWrapper = styled.div`
 `;
 
 export const CateIcon = styled.img`
-  width: 24px;
-  height: 24px;
+  width: 50px;
+  height: 50px;
 `;
+// 여기 아이콘 테스트 해볼려고 키웠엉 수정 하고싶으면 고쳐놔줘
 
 export const CateTextWrapper = styled.div`
   width: 100%;

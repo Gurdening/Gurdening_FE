@@ -45,7 +45,7 @@ export const NavLogo = styled.img`
   z-index: 11;
 `;
 export const NavText = styled.span`
-  color: ${({ active }) => (active ? '#FBB24D' : '#848484')};
+  color: ${({ $active }) => ($active ? '#FBB24D' : '#848484')};
   display: block;
   font-size: 12px;
   margin-top: 4px;
