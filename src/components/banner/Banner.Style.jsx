@@ -36,14 +36,19 @@ export const BannerStyle = styled.div`
     display: block;
     margin: 0 auto;
   }
+
+  // 여기가 실질적으로 배너 이미지를 설정하는 곳인데
+  // 지금 이미지 위에 텍스트가 얹혀져 있는거라 일단 padding으로 해결해뒀어
+  // 여기 구조를 정확히 모르겠어서 일단 이걸로 해두고 만나서 같이 해보는 것도 좋을듯!
   img {
     // max-width: 325px; // 이미지 최대 너비
     max-width: 375px;
     height: auto; // 높이는 자동으로 조절
     // 이미지 크기 조절을 위한 추가 스타일
     // width: 100%; // 이미지 너비
-    margin-top: 10px;
+    /* margin-top: 10px; */
     // margin-left: 25px;
+    padding-top: 40px;
   }
 
   .slick-dots {
