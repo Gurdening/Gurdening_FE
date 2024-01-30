@@ -36,8 +36,8 @@ export const CateTextWrapper = styled.div`
 `;
 
 export const CateText = styled.span`
-  font-size: 15px;
-  color: #848484;
+  font-size: 14px;
+  color: #473513;
   text-align: center;
   // font-weight: bold;
 `;
