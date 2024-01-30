@@ -7,15 +7,15 @@ import * as S from './Banner.Style';
 
 const images = [
   {
-    src: 'https://i.pinimg.com/474x/94/f6/f9/94f6f9e60b0e3e0fedb698798d547868.jpg',
+    src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/applying_ointment_Banner.jpeg',
     route: '/page1',
   },
   {
-    src: 'https://i.pinimg.com/474x/b2/28/4a/b2284a4a46d4d28e99759b1c8f3942a2.jpg',
+    src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/brushing_teeth_Banner.jpeg',
     route: '/page2',
   },
   {
-    src: 'https://i.pinimg.com/474x/b2/28/4a/b2284a4a46d4d28e99759b1c8f3942a2.jpg',
+    src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/Boiling_an_egg_Banner.jpeg',
     route: '/page3',
   },
 ];
