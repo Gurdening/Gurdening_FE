@@ -15,7 +15,7 @@ const images = [
     route: '/page2',
   },
   {
-    src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/Boiling_an_egg_Banner.jpeg',
+    src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/Boiling_an_egg_Banner.jpeg', //이미지 수정
     route: '/page3',
   },
 ];
