@@ -2,7 +2,7 @@ import React from 'react';
 import { GoogleLogin } from 'react-google-login';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import MyPage from './components/MyPage'; 
+import MyPage from './components/MyPage';
 
 const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
@@ -12,18 +12,19 @@ function LoginPage() {
   const navigate = useNavigate();
 
   const onSuccess = (response) => {
-    axios.post('YOUR_BACKEND_ENDPOINT', {
-      token: response.tokenId,
-    })
-    .then(response => {
-      // JWT 토큰 저장 
-      localStorage.setItem('token', response.data.token);
-      // 로그인 성공 후 경로 설정
-      navigate('/dashboard');
-    })
-    .catch(error => {
-      console.log('Login Failed:', error);
-    });
+    axios
+      .post('YOUR_BACKEND_ENDPOINT', {
+        token: response.tokenId,
+      })
+      .then((response) => {
+        // JWT 토큰 저장
+        localStorage.setItem('token', response.data.token);
+        // 로그인 성공 후 경로 설정
+        navigate('/dashboard');
+      })
+      .catch((error) => {
+        console.log('Login Failed:', error);
+      });
   };
 
   const onFailure = (error) => {
