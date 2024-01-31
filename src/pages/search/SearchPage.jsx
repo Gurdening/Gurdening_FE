@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import SearchInp from '../../components/searchComp/SearchInp';
 import SearchBtn from '../../components/searchComp/SearchBtn';
-import * as S from './Search.Style';
+import * as S from './SearchPage.Style';
 
 const SearchPage = () => {
   const [inputValue, setInputValue] = useState('');
