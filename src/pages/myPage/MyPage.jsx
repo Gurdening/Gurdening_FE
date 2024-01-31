@@ -12,13 +12,14 @@
 import React from 'react';
 import LoginBtn from '../../components/myPageComp/LoginBtn';
 import MyPageList from '../../components/myPageComp/MyPageList';
+import MyPageWrap from './MyPage.Style';
 
-const MyPage = ({ isUserLoggedIn }) => {
+const MyPage = () => {
   return (
-    <div>
-      {!isUserLoggedIn && <LoginBtn />}
+    <MyPageWrap>
+      <LoginBtn />
       <MyPageList />
-    </div>
+    </MyPageWrap>
   );
 };
 

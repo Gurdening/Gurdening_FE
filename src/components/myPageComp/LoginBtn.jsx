@@ -20,9 +20,10 @@ const LoginBtn = ({ profileImg = defaultProfileImg }) => {
         <span className="login-text">
           안내로 더불어 성장하는 공간, Gurdening
         </span>
-        <span className="login-action">
+        {/* <span className="login-action">
           {isLoggedIn ? 'user@email.com' : '로그인하기'}
-        </span>
+        </span> */}
+        <span>로그인하기</span>
       </S.StyledLoginBtn>
     </S.LoginWrapper>
   );
