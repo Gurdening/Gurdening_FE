@@ -14,7 +14,7 @@ const SearchPage = () => {
   };
 
   const handleSearch = () => {
-    // 검색 로직을 여기에 구현합니다. 예를 들면 상태 관리 라이브러리에 검색어를 저장하거나 검색 결과 페이지로 이동할 수 있습니다.
+    // 검색 로직
   };
 
   const handleBack = () => {
