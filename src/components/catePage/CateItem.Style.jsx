@@ -21,7 +21,7 @@ export const CateItemWrapper = styled.div`
 export const CateIconWrapper = styled.div`
   width: 80px;
   height: 60px;
-  background-color: #d2d999;
+  // background-color: #d2d999;
   border-radius: 10px;
   display: flex;
   justify-content: center;
