@@ -6,6 +6,7 @@ import Category from './pages/category/Category';
 import MyPage from './pages/myPage/MyPage';
 import LoginPage from './pages/login/LoginPage';
 import NavBar from './components/navBar/NavBar';
+import Search from './pages/search/Search';
 // import ErrorPage from '';
 
 const Wrapper = styled.div`
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/category" element={<Category />} />
           <Route path="/mypage" element={<MyPage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/search" element={<Search />} />
           {/* 기타 라우트 */}
         </Routes>
       </ContentContainer>
