@@ -18,6 +18,7 @@ const MyPage = ({ isUserLoggedIn }) => {
     <div>
       {!isUserLoggedIn && <LoginBtn />}
       <MyPageList />
+      <LogoutButton />
     </div>
   );
 };
