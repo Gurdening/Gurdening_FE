@@ -10,15 +10,15 @@
 // export default MyPage;
 
 import React from 'react';
-// import { LoginBtn } from '../../components/myPageComp/LoginBtn';
-// import { MyPageList } from '../../components/myPageComp/MyPageList';
+import LoginBtn from '../../components/myPageComp/LoginBtn';
+import MyPageList from '../../components/myPageComp/MyPageList';
 import MyPageWrap from './MyPage.Style';
 
 const MyPage = () => {
   return (
     <MyPageWrap>
-      {/* <LoginBtn /> */}
-      {/* <MyPageList /> */}
+      <LoginBtn />
+      <MyPageList />
     </MyPageWrap>
   );
 };
