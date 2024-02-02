@@ -2,6 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import * as S from './LoginBtn.Style';
 
+import TestProfileImg from '../../assets/icons/icon-login-emtpyimage.png';
+
 const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
 const defaultProfileImg = '../../assets/images/logo-main.png'; // Set the default image path
@@ -14,16 +16,12 @@ const LoginBtn = ({ profileImg = defaultProfileImg }) => {
   };
 
   return (
-    <S.LoginWrapper>
-      <S.ProfilePicture src={profileImg} />
-      <S.StyledLoginBtn onClick={handleLoginClick}>
-        <span className="login-text">
-          안내로 더불어 성장하는 공간, Gurdening
-        </span>
-        <span className="login-action">
-          {isLoggedIn ? 'user@email.com' : '로그인하기'}
-        </span>
-      </S.StyledLoginBtn>
+    <S.LoginWrapper onClick={handleLoginClick}>
+      <S.ProfilePicture src={TestProfileImg} alt="Profile" />
+      <S.LoginTextContainer>
+        <span className="welcome-text">Welcome to Guardning!</span>
+        <span className="guide-text">Guide us to live together</span>
+      </S.LoginTextContainer>
     </S.LoginWrapper>
   );
 };

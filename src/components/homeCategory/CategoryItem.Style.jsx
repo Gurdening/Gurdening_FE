@@ -39,5 +39,5 @@ export const CateText = styled.span`
   font-size: 14px;
   color: #473513;
   text-align: center;
-  // font-weight: bold;
+  font-weight: bold;
 `;
