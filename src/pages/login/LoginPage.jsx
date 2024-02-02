@@ -1,8 +1,26 @@
 import React from 'react';
+import styled from 'styled-components';
 import { GoogleLogin } from 'react-google-login';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import MyPage from '../myPage/MyPage';
+import * as S from './LoginPage.Style';
+
+// 자기전 테스트 실패
+// const CustomGoogleLogin = styled(GoogleLogin)`
+//   background-color: #4285f4; /* Google 브랜드 색상 */
+//   color: black;
+//   padding: 10px 20px;
+//   border: none;
+//   border-radius: 4px;
+//   font-size: 16px;
+//   cursor: pointer;
+//   transition: background-color 0.3s;
+
+//   &:hover {
+//     background-color: #357ae8; /* 호버 시 색상 변경 */
+//   }
+// `;
 const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
 const GURDENING_LOGIN_API_URL = `http://localhost:8080/api/oauth2/callback/google`;

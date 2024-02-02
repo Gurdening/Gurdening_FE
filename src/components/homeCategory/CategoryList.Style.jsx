@@ -6,7 +6,7 @@ export const CategoryListWrapper = styled.div`
   justify-content: flex-start;
   gap: 10px;
   padding: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   max-height: 100vh;
   overflow-y: auto;
 `;
