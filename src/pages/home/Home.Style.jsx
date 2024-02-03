@@ -1,5 +1,13 @@
 import styled from 'styled-components';
-// import GurdeningImg from '../../assets/images/BannerLogo.png';
+
+export const HomeWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* min-height: 100vh; // 뷰포트의 전체 높이를 확보하면서 내용이 더 길어질 경우 스크롤 가능하게 함 */
+  box-sizing: border-box;
+`;
 
 export const StyledImage = styled.img`
   max-width: 50%; // 이미지의 최대 너비를 설정
@@ -7,8 +15,6 @@ export const StyledImage = styled.img`
   margin-top: 10px;
   margin-left: 33%;
 `;
-
-// export const LogoImg = () => <StyledImage src={GurdeningImg} alt="Gurdening" />;
 
 // LogoImg 컴포넌트 스타일 정의
 export const LogoImgWrapper = styled.div`
@@ -20,6 +26,5 @@ export const LogoImgWrapper = styled.div`
 `;
 
 export const LogoImg = styled.img`
-  max-width: 40%; // 최대 너비 제한
-  height: auto; // 높이 자동 조절
+  width: 150px;
 `;
