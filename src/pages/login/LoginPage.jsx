@@ -128,6 +128,78 @@
 
 // export default LoginPage;
 
+// import React, { useState } from 'react';
+// import { useNavigate } from 'react-router-dom';
+// import { GoogleLogin } from 'react-google-login';
+// import axios from 'axios';
+// import * as S from './LoginPage.Style';
+// import { CancelBtn } from '../../components/loginComp/CancelBtn';
+
+// const LoginPage = () => {
+//   const navigate = useNavigate();
+//   const [isLoggedIn, setIsLoggedIn] = useState(false); // 로그인 상태를 추적하는 상태 변수
+
+//   const handleLoginSuccess = async (googleData) => {
+//     const GOOGLE_TOKEN_API_URL = 'https://oauth2.googleapis.com/token';
+//     const body = new URLSearchParams({
+//       code: googleData.code, // 이 부분은 구글 로그인 응답에서 제공되는 코드로 변경해야 할 수 있음
+//       client_id: process.env.REACT_APP_GOOGLE_CLIENT_ID,
+//       client_secret: process.env.REACT_APP_GOOGLE_CLIENT_SECRET, // 클라이언트 시크릿도 필요
+//       redirect_uri: process.env.REACT_APP_GOOGLE_REDIRECT_URI,
+//       grant_type: 'authorization_code',
+//     });
+
+//     try {
+//       const response = await axios.post(GOOGLE_TOKEN_API_URL, body.toString(), {
+//         headers: {
+//           'Content-Type': 'application/x-www-form-urlencoded',
+//         },
+//       });
+
+//       const accessToken = response.data.access_token;
+//       const refreshToken = response.data.refresh_token;
+
+//       localStorage.setItem('accessToken', accessToken);
+//       localStorage.setItem('refreshToken', refreshToken);
+
+//       setIsLoggedIn(true); // 로그인 상태 업데이트
+//       navigate('/mypage'); // 마이페이지로 리다이렉션
+//     } catch (error) {
+//       console.error('Login Failed:', error);
+//       navigate('/error'); // 에러 페이지로 리다이렉션
+//     }
+//   };
+
+//   const handleLoginFailure = (error) => {
+//     console.error('Google Login Failed:', error);
+//     navigate('/error'); // 에러 페이지로 리다이렉션
+//   };
+
+//   const handleCancel = () => {
+//     navigate(-1); // 이전 페이지로 이동
+//   };
+
+//   if (!isLoggedIn) {
+//     return (
+//       <S.LoginContainer>
+//         <S.Logo src="path-to-your-logo.png" alt="Logo" />
+//         <GoogleLogin
+//           clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}
+//           buttonText="Sign in with Google"
+//           onSuccess={handleLoginSuccess}
+//           onFailure={handleLoginFailure}
+//           cookiePolicy={'single_host_origin'}
+//         />
+//         <CancelBtn onClick={handleCancel} />
+//       </S.LoginContainer>
+//     );
+//   } else {
+//     return null;
+//   }
+// };
+
+// export default LoginPage;
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GoogleLogin } from 'react-google-login';
@@ -137,15 +209,15 @@ import { CancelBtn } from '../../components/loginComp/CancelBtn';
 
 const LoginPage = () => {
   const navigate = useNavigate();
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // 로그인 상태를 추적하는 상태 변수
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLoginSuccess = async (googleData) => {
+    // Google에서 제공하는 인증 코드를 사용하여 백엔드 서버에 인증 요청
     const GOOGLE_TOKEN_API_URL = 'https://oauth2.googleapis.com/token';
     const body = new URLSearchParams({
-      code: googleData.code, // 이 부분은 구글 로그인 응답에서 제공되는 코드로 변경해야 할 수 있음
-      client_id: process.env.REACT_APP_GOOGLE_CLIENT_ID,
-      client_secret: process.env.REACT_APP_GOOGLE_CLIENT_SECRET, // 클라이언트 시크릿도 필요
-      redirect_uri: process.env.REACT_APP_GOOGLE_REDIRECT_URI,
+      code: googleData.code,
+      client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
+      redirect_uri: import.meta.env.VITE_GOOGLE_REDIRECT_URI,
       grant_type: 'authorization_code',
     });
 
@@ -162,21 +234,21 @@ const LoginPage = () => {
       localStorage.setItem('accessToken', accessToken);
       localStorage.setItem('refreshToken', refreshToken);
 
-      setIsLoggedIn(true); // 로그인 상태 업데이트
-      navigate('/mypage'); // 마이페이지로 리다이렉션
+      setIsLoggedIn(true);
+      navigate('/mypage');
     } catch (error) {
       console.error('Login Failed:', error);
-      navigate('/error'); // 에러 페이지로 리다이렉션
+      // navigate('/error');
     }
   };
 
   const handleLoginFailure = (error) => {
     console.error('Google Login Failed:', error);
-    navigate('/error'); // 에러 페이지로 리다이렉션
+    // navigate('/error');
   };
 
   const handleCancel = () => {
-    navigate(-1); // 이전 페이지로 이동
+    navigate(-1);
   };
 
   if (!isLoggedIn) {
@@ -184,16 +256,20 @@ const LoginPage = () => {
       <S.LoginContainer>
         <S.Logo src="path-to-your-logo.png" alt="Logo" />
         <GoogleLogin
-          clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}
+          clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}
           buttonText="Sign in with Google"
           onSuccess={handleLoginSuccess}
           onFailure={handleLoginFailure}
           cookiePolicy={'single_host_origin'}
+          responseType="code"
+          accessType="offline"
+          scope="https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile"
         />
         <CancelBtn onClick={handleCancel} />
       </S.LoginContainer>
     );
   } else {
+    //
     return null;
   }
 };
