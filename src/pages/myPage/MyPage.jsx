@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginBtn from '../../components/myPageComp/LoginBtn';
+import LoginBtn from '../../components/loginComp/LoginBtn';
 import MyPageList from '../../components/myPageComp/MyPageList';
 import * as S from './MyPage.Style';
 

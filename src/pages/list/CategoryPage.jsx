@@ -23,6 +23,7 @@ const CategoryPage = () => {
 
 export default CategoryPage;
 
+// 아래는 get방식
 // import React, { useState, useEffect } from 'react';
 // import { useParams } from 'react-router-dom';
 // import { fetchManuals } from './fetchManuals'; // 데이터를 불러오는 함수
