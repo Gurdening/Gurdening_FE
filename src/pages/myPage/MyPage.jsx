@@ -7,21 +7,10 @@ import HistoryIcon from '../../assets/icons/icon-mypage-history.png';
 import BookMarkIcon from '../../assets/icons/icon-mypage-bookmark.png';
 import SuggestionIcon from '../../assets/icons/icon-mypage-suggestion.png';
 
-// 요건 컴포넌트 재사용 테스트 아이콘이야
-import EditIcon from '../../assets/icons/icon-mypage-edit.png';
-import NoticeIcon from '../../assets/icons/icon-mypage-notice.png';
-import FAQIcon from '../../assets/icons/icon-mypage-faq.png';
-
 const myPageItems = [
-  { icon: HistoryIcon, text: 'History', path: '/history' },
-  { icon: BookMarkIcon, text: 'Bookmark', path: '/bookmark' },
-  { icon: SuggestionIcon, text: 'Suggestion', path: '/suggestion' },
-];
-
-const TestItems = [
-  { icon: EditIcon, text: 'Edit Profile', path: '/editprofile' },
-  { icon: NoticeIcon, text: 'Notice', path: '/notice' },
-  { icon: FAQIcon, text: 'FAQ', path: '/faq' },
+  { icon: HistoryIcon, text: 'History', path: '/mypage/history' },
+  { icon: BookMarkIcon, text: 'Bookmark', path: '/mypage/bookmark' },
+  { icon: SuggestionIcon, text: 'Suggestion', path: '/mypage/suggestion' },
 ];
 
 const MyPage = () => {
@@ -29,8 +18,6 @@ const MyPage = () => {
     <S.MyPageWrap>
       <LoginBtn />
       <MyPageList title="My Page" items={myPageItems} />
-      {/* 여기는 재사용 테스트 해보려고 만든거야 */}
-      <MyPageList title="TEST" items={TestItems} />
     </S.MyPageWrap>
   );
 };
