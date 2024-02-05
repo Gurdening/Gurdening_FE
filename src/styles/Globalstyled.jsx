@@ -1,7 +1,14 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
+import AaOrdinary from '../assets/fonts/Aa오디너리.ttf';
 
 const GlobalStyled = createGlobalStyle`
+  @font-face {
+  font-family: "AaOrdinary";
+  src: url(${AaOrdinary}) format("truetype");
+  font-weight: normal;
+  }
+
   ${reset}
   :root{                            // 자세한 컬러 파레트는 피그마 참고
     --main-color: #D2D999;        // Deco
@@ -12,7 +19,7 @@ const GlobalStyled = createGlobalStyle`
 
   * {
     box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'AaOrdinary', cursive;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 
@@ -28,14 +35,9 @@ const GlobalStyled = createGlobalStyle`
     background-color: #D2D2D2;
     margin: 0 auto;
 
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'AaOrdinary', sans-serif;
     font-weight: 400;
   }
-
-  :lang(ko) {
-    font-family: 'Jua', sans-serif;
-  }
-
 
 `;
 

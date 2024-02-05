@@ -5,7 +5,6 @@ export const CateItemWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   width: 70px;
-  // height: 100px;
   height: auto;
   margin-left: 5px;
   margin-right: 5px;
@@ -27,7 +26,6 @@ export const CateIcon = styled.img`
   width: 50px;
   height: 50px;
 `;
-// 여기 아이콘 테스트 해볼려고 키웠엉 수정 하고싶으면 고쳐놔줘
 
 export const CateTextWrapper = styled.div`
   width: 100%;
