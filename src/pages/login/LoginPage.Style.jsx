@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const LoginWrap = styled.div`
+  width: 325px;
+  margin: 0 auto;
+`;
+
 export const LoginContainer = styled.div`
   display: flex;
   flex-direction: column;

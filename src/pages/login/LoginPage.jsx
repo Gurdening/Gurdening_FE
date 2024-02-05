@@ -4,7 +4,7 @@ import { GoogleLogin } from 'react-google-login';
 import axios from 'axios';
 import * as S from './LoginPage.Style';
 import { CancelBtn } from '../../components/loginComp/CancelBtn';
-
+import Logo from '../../assets/images/logo-login-gurdening.png';
 const LoginPage = () => {
   const navigate = useNavigate();
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -51,20 +51,22 @@ const LoginPage = () => {
 
   if (!isLoggedIn) {
     return (
-      <S.LoginContainer>
-        <S.Logo src="../../assets/images/logo-login-gurdening.png" alt="Logo" />
-        <GoogleLogin
-          clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}
-          buttonText="Sign in with Google"
-          onSuccess={handleLoginSuccess}
-          onFailure={handleLoginFailure}
-          cookiePolicy={'single_host_origin'}
-          responseType="code"
-          accessType="offline"
-          scope="https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile"
-        />
-        <CancelBtn onClick={handleCancel} />
-      </S.LoginContainer>
+      <S.LoginWrap>
+        <S.LoginContainer>
+          <S.Logo src={Logo} alt="Logo" />
+          <GoogleLogin
+            clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}
+            buttonText="구글로 로그인하기"
+            onSuccess={handleLoginSuccess}
+            onFailure={handleLoginFailure}
+            cookiePolicy={'single_host_origin'}
+            responseType="code"
+            accessType="offline"
+            scope="https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile"
+          />
+          <CancelBtn onClick={handleCancel} />
+        </S.LoginContainer>
+      </S.LoginWrap>
     );
   } else {
     //
