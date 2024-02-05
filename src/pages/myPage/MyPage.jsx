@@ -36,15 +36,3 @@ const MyPage = () => {
 };
 
 export default MyPage;
-
-// 이거 너가 주석 처리해놨던건데 하단으로 옮겨둘께!
-// 로그인 성공시 요소 잠금해제
-// import React from 'react';
-// import LoginBtn from '../../components/myPageComp/LoginBtn';
-// import MenuItems from '../../components/myPageComp/MyPageList';
-
-// const MyPage = ({ isUserLoggedIn }) => {
-//   return <div>{!isUserLoggedIn ? <LoginBtn /> : <MyPageList />}</div>;
-// };
-
-// export default MyPage;
