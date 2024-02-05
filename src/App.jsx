@@ -7,6 +7,9 @@ import MyPage from './pages/myPage/MyPage';
 import LoginPage from './pages/login/LoginPage';
 import NavBar from './components/navBar/NavBar';
 import SearchPage from './pages/search/SearchPage';
+import Bookmark from './pages/bookmark/Bookmark';
+import History from './pages/history/History';
+import Suggestion from './pages/suggestion/Suggestion';
 // import ErrorPage from '';
 
 const Wrapper = styled.div`
@@ -29,10 +32,13 @@ const App = () => {
       <ContentContainer>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/search" element={<SearchPage />} />
           <Route path="/category" element={<Category />} />
           <Route path="/mypage" element={<MyPage />} />
+          <Route path="/mypage/bookmark" element={<Bookmark />} />
+          <Route path="/mypage/history" element={<History />} />
+          <Route path="/mypage/suggestion" element={<Suggestion />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/search" element={<SearchPage />} />
           {/* 기타 라우트 */}
         </Routes>
       </ContentContainer>

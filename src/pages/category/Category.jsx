@@ -1,6 +1,6 @@
 import React from 'react';
 import { CategoryWrap } from './Category.Style';
-import CateList from '../../components/catePage/CateList';
+import CateList from '../../components/cateComp/CateList';
 import LogoImg from '../../assets/images/BannerLogo.png';
 import * as S from '../home/Home.Style';
 
