@@ -13,6 +13,6 @@ export const CateListWrapper = styled.div`
   /* padding-bottom: 50px; */
   // 이거 left 안준게 중앙 맞는딩?? 스크롤도 없어!
   /* padding-left: 20px; */
-  max-height: 100vh;
-  overflow-y: auto;
+  /* max-height: 100vh; */
+  /* overflow-y: auto; */
 `;

@@ -6,29 +6,14 @@ import LogoImg from '../../assets/images/BannerLogo.png';
 // const logoImg = '../../assets/images/BannerLogo.png';
 
 const Home = () => {
-  const images = [
-    {
-      url: '../../assets/images/banner1.jpg',
-      link: '/menual',
-    },
-    {
-      url: '../../assets/images/banner2.jpg',
-      link: '/menual',
-    },
-    {
-      url: '../../assets/images/banner3.jpg',
-      link: '/menual',
-    },
-  ];
-
   return (
-    <div>
+    <S.HomeWrap>
       <S.LogoImgWrapper>
         <S.LogoImg src={LogoImg} alt="Gurdening " />
       </S.LogoImgWrapper>
-      <Banner images={images} />
+      <Banner />
       <CategoryList />
-    </div>
+    </S.HomeWrap>
   );
 };
 
