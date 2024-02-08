@@ -37,7 +37,7 @@ const categoryData = [
 const CategoryList = () => {
   return (
     <S.CategoryListWrapper>
-      <S.CategoryTitle>어떤 매뉴얼이 필요하신가요?</S.CategoryTitle>
+      <S.CategoryTitle>🤔어떤 매뉴얼이 필요하신가요?</S.CategoryTitle>
       <S.CategoryItemsContainer>
         {categoryData.map((category) => (
           <CateItem
