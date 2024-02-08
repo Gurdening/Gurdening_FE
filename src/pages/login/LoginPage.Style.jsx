@@ -23,6 +23,7 @@ export const LogBtn = styled.div`
   // background-color: #fbb24d;
   // color: white;
   background-color: #fbb24d;
+  border: 2px solid transparent;
   color: #473513;
   border: none;
   border-radius: 20px;
@@ -40,5 +41,8 @@ export const LogBtn = styled.div`
 
   &:hover {
     background-color: #fbf3c9;
+  }
+  &:active {
+    border: 2px solid #473513;
   }
 `;

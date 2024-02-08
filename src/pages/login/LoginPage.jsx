@@ -86,7 +86,7 @@ import { useNavigate } from 'react-router-dom';
 import { GoogleLogin } from 'react-google-login';
 import axios from 'axios';
 import * as S from './LoginPage.Style';
-import CancelBtn from '../../components/loginComp/CancelBtn';
+import { CancelBtn } from '../../components/loginComp/CancelBtn';
 import Logo from '../../assets/images/logo-login-gurdening.png';
 
 const LoginPage = () => {
@@ -115,7 +115,7 @@ const LoginPage = () => {
       localStorage.setItem('refreshToken', refresh_token);
 
       setIsLoggedIn(true);
-      // 이메일을 전달하며 마이페이지로 리다이렉션합니다.
+      // 이메일 마이페이지 리디렉션
       navigate('/mypage', {
         state: { isLoggedIn: true, email: googleData.profileObj.email },
       });
@@ -147,12 +147,12 @@ const LoginPage = () => {
             accessType="offline"
             scope="https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile"
             render={(renderProps) => (
-              <S.LoginBtn
+              <S.LogBtn
                 onClick={renderProps.onClick}
                 disabled={renderProps.disabled}
               >
                 구글로 로그인하기
-              </S.LoginBtn>
+              </S.LogBtn>
             )}
           />
           <CancelBtn onClick={handleCancel} />
@@ -160,7 +160,7 @@ const LoginPage = () => {
       </S.LoginWrap>
     );
   } else {
-    // 이미 로그인이 되어 있다면 마이페이지로 리다이렉션합니다.
+    // 로그인이 되어있는 경우 마이페이지로 리디렉션
     navigate('/mypage', { state: { isLoggedIn: true } });
     return null;
   }
