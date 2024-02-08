@@ -26,15 +26,15 @@ export const LoginTextContainer = styled.div`
   justify-content: center;
 
   & .welcome-text {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
-    color: #6b501e;
-    margin-bottom: 13px;
+    color: #2d1914;
+    margin-bottom: 10px;
   }
 
   & .guide-text {
     font-size: 18px;
-    color: #473513;
+    color: #65551b;
     font-weight: 300;
   }
 `;
