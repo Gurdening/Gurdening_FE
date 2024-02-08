@@ -16,7 +16,7 @@ export const BannerStyle = styled.div`
     white-space: nowrap;
     width: 100%;
     color: white;
-    font-size: 13px;
+    font-size: 15px;
     background-color: #fbb24d;
     padding: 10px 25px;
     display: flex;
