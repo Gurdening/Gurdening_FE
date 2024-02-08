@@ -8,16 +8,16 @@ import BookMarkIcon from '../../assets/icons/icon-mypage-bookmark.png';
 import SuggestionIcon from '../../assets/icons/icon-mypage-suggestion.png';
 
 const myPageItems = [
-  { icon: HistoryIcon, text: 'History', path: '/mypage/history' },
-  { icon: BookMarkIcon, text: 'Bookmark', path: '/mypage/bookmark' },
-  { icon: SuggestionIcon, text: 'Suggestion', path: '/mypage/suggestion' },
+  { icon: HistoryIcon, text: '최근 본 매뉴얼', path: '/mypage/history' },
+  { icon: BookMarkIcon, text: '즐겨찾기', path: '/mypage/bookmark' },
+  { icon: SuggestionIcon, text: '제안하기', path: '/mypage/suggestion' },
 ];
 
 const MyPage = () => {
   return (
     <S.MyPageWrap>
       <LoginBtn />
-      <MyPageList title="My Page" items={myPageItems} />
+      <MyPageList title="마이페이지" items={myPageItems} />
     </S.MyPageWrap>
   );
 };
