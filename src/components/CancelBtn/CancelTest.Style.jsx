@@ -6,7 +6,7 @@ export const CancelBtn = styled.button`
   width: 300px;
   height: 50px;
   border: none;
-  border-radius: 6px;
+  border-radius: 20px;
   box-shadow:
     0 0 0 1px #fbb24d inset,
     0 0 0 2px rgba(255, 255, 255, 0.15) inset,
