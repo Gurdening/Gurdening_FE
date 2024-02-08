@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import * as S from './CancelTest.Style';
+import * as S from './BackBtn.Style';
 
-function CancelTest({ title }) {
+function BacklBtn({ title }) {
   const navigate = useNavigate();
 
   const handleGoBack = () => {
@@ -11,9 +11,9 @@ function CancelTest({ title }) {
 
   return (
     <S.BtnWrap>
-      <S.CancelBtn onClick={handleGoBack}>{title}</S.CancelBtn>
+      <S.BackButton onClick={handleGoBack}>{title}</S.BackButton>
     </S.BtnWrap>
   );
 }
 
-export default CancelTest;
+export default BacklBtn;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const CancelBtn = styled.button`
+export const BackButton = styled.button`
   background-color: #fbb24d;
   font-size: 22px;
   width: 300px;

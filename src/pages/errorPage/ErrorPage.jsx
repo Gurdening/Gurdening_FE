@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './ErrorPage.Style';
 import Logo from '../../components/logoComp/Logo';
-import CancelTest from '../../components/CancelBtn/CancelTest';
+import BacklBtn from '../../components/backBtn/BackBtn';
 
 function ErrorPage() {
   return (
@@ -14,7 +14,7 @@ function ErrorPage() {
           <br />
           아래의 버튼을 눌러서 돌아가주세요!
         </S.ErrText>
-        <CancelTest title="돌아가기" />
+        <BacklBtn title="돌아가기" />
       </S.ErrContainer>
     </S.ErrorWrap>
   );
