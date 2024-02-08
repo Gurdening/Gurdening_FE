@@ -20,6 +20,10 @@ export const CateIconWrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
+
+  &:hover {
+    background-color: #fef5a6;
+  }
 `;
 
 export const CateIcon = styled.img`
@@ -35,7 +39,7 @@ export const CateTextWrapper = styled.div`
 
 export const CateText = styled.span`
   font-size: 14px;
-  color: #473513;
+  color: #65551b;
   text-align: center;
   font-weight: bold;
 `;
