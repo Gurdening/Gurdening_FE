@@ -1,17 +1,14 @@
 import React from 'react';
-import { CategoryWrap } from './Category.Style';
+import * as S from './Category.Style';
 import CateList from '../../components/cateComp/CateList';
-import LogoImg from '../../assets/images/BannerLogo.png';
-import * as S from '../home/Home.Style';
+import Logo from '../../components/logoComp/Logo';
 
 const Category = () => {
   return (
-    <CategoryWrap>
-      <S.LogoImgWrapper>
-        <S.LogoImg src={LogoImg} alt="Gurdening " />
-      </S.LogoImgWrapper>
+    <S.CategoryWrap>
+      <Logo />
       <CateList />
-    </CategoryWrap>
+    </S.CategoryWrap>
   );
 };
 

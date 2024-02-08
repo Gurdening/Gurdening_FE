@@ -10,7 +10,7 @@ import SearchPage from './pages/search/SearchPage';
 import Bookmark from './pages/bookmark/Bookmark';
 import History from './pages/history/History';
 import Suggestion from './pages/suggestion/Suggestion';
-// import ErrorPage from '';
+import ErrorPage from './pages/errorPage/ErrorPage';
 
 const Wrapper = styled.div`
   position: relative;
@@ -39,6 +39,7 @@ const App = () => {
           <Route path="/mypage/history" element={<History />} />
           <Route path="/mypage/suggestion" element={<Suggestion />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/*" element={<ErrorPage />} />
           {/* 기타 라우트 */}
         </Routes>
       </ContentContainer>
