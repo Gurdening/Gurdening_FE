@@ -1,6 +1,6 @@
 import React from 'react';
 import CateItem from './CategoryItem';
-import { CategoryListWrapper } from './CategoryList.Style';
+import * as S from './CategoryList.Style';
 import cookEmoji from '../../assets/emojis/emoji-cook.png';
 import hospitalEmoji from '../../assets/emojis/emoji-hospital.png';
 import pinggu from '../../assets/emojis/pinggu.png';
@@ -17,18 +17,38 @@ const categoryData = [
   { name: '법률', icon: cookEmoji, path: '/menual8' },
 ];
 
+// const CategoryList = () => {
+//   return (
+//     <S.CategoryListWrapper>
+//       {categoryData.map((category) => (
+//         <CateItem
+//           key={category.name}
+//           name={category.name}
+//           icon={category.icon}
+//           path={category.path}
+//         />
+//       ))}
+//     </S.CategoryListWrapper>
+//   );
+// };
+
+// export default CategoryList;
+
 const CategoryList = () => {
   return (
-    <CategoryListWrapper>
-      {categoryData.map((category) => (
-        <CateItem
-          key={category.name}
-          name={category.name}
-          icon={category.icon}
-          path={category.path}
-        />
-      ))}
-    </CategoryListWrapper>
+    <S.CategoryListWrapper>
+      <S.CategoryTitle>🤔어떤 매뉴얼이 필요하신가요?</S.CategoryTitle>
+      <S.CategoryItemsContainer>
+        {categoryData.map((category) => (
+          <CateItem
+            key={category.name}
+            name={category.name}
+            icon={category.icon}
+            path={category.path}
+          />
+        ))}
+      </S.CategoryItemsContainer>
+    </S.CategoryListWrapper>
   );
 };
 

@@ -43,5 +43,9 @@ export const CateTextWrapper = styled.div`
 export const CateText = styled.span`
   font-size: 25px;
   font-weight: bold;
-  color: #6b501e;
+  color: #2d1914;
+
+  &:hover {
+    color: #65551b;
+  }
 `;
