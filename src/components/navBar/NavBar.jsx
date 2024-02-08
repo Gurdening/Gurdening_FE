@@ -26,14 +26,14 @@ const NavBar = () => {
             src={isActive('/') ? HomeIconActive : HomeIcon}
             alt="Home"
           />
-          <S.NavText $active={isActive('/')}>Home</S.NavText>
+          <S.NavText $active={isActive('/')}>홈페이지</S.NavText>
         </S.NavItem>
         <S.NavItem onClick={() => navigate('/search')}>
           <S.NavIcon
             src={isActive('/search') ? SearchIconActive : SearchIcon}
             alt="Search"
           />
-          <S.NavText $active={isActive('/search')}>Search</S.NavText>
+          <S.NavText $active={isActive('/search')}>찾아보기</S.NavText>
         </S.NavItem>
         <S.NavItem>
           <S.NavLogo src={Logo} alt="Logo" />
@@ -43,14 +43,14 @@ const NavBar = () => {
             src={isActive('/category') ? CategoryIconActive : CategoryIcon}
             alt="Category"
           />
-          <S.NavText $active={isActive('/category')}>Category</S.NavText>
+          <S.NavText $active={isActive('/category')}>카테고리</S.NavText>
         </S.NavItem>
         <S.NavItem onClick={() => navigate('/mypage')}>
           <S.NavIcon
             src={isActive('/mypage') ? PersonIconActive : PersonIcon}
             alt="MyPage"
           />
-          <S.NavText $active={isActive('/mypage')}>MyPage</S.NavText>
+          <S.NavText $active={isActive('/mypage')}>내 정보</S.NavText>
         </S.NavItem>
       </S.Nav>
     </S.NavWrapper>
