@@ -11,7 +11,7 @@ const LogoutBtn = () => {
     // dispatch(logoutUserAction());
 
     // Redirect to login or home page
-    navigate('/login');
+    navigate('/home');
   };
 
   return <button onClick={handleLogout}>Logout</button>;
