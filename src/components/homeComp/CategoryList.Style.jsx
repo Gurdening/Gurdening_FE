@@ -13,10 +13,10 @@ export const CategoryListWrapper = styled.div`
 `;
 
 export const CategoryTitle = styled.h2`
-  margin-bottom: 5px;
+  padding-bottom: 5px;
   font-size: 18px;
   font-weight: 700;
-  margin-left: 10px;
+  padding-left: 10px;
   color: #677d22;
 `;
 

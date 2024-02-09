@@ -11,6 +11,7 @@ import Bookmark from './pages/bookmark/Bookmark';
 import History from './pages/history/History';
 import Suggestion from './pages/suggestion/Suggestion';
 import ErrorPage from './pages/errorPage/ErrorPage';
+import ListPage from './pages/list/ListPage';
 
 const Wrapper = styled.div`
   position: relative;
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/category" element={<Category />} />
+          <Route path="/category/:category" element={<ListPage />} />
           <Route path="/mypage" element={<MyPage />} />
           <Route path="/mypage/bookmark" element={<Bookmark />} />
           <Route path="/mypage/history" element={<History />} />
