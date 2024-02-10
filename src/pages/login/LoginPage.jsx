@@ -97,8 +97,8 @@ const LoginPage = () => {
     const GOOGLE_TOKEN_API_URL = 'https://oauth2.googleapis.com/token';
     const body = new URLSearchParams({
       code: googleData.code,
-      client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
-      redirect_uri: import.meta.env.VITE_GOOGLE_REDIRECT_URI,
+      client_id: `${import.meta.env.VITE_GOOGLE_CLIENT_ID}`,
+      redirect_uri: `${import.meta.env.VITE_GOOGLE_REDIRECT_URI}`,
       grant_type: 'authorization_code',
     });
 
