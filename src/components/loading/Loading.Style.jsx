@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const LoadingCont = styled.div`
   width: 325px;
-  height: 100vh;
   margin: 0 auto;
   z-index: 999;
   display: flex;
