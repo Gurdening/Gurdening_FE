@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import * as S from './ListPage.Style';
 import { useNavigate, useParams } from 'react-router-dom';
+import Loading from '../../components/loading/Loading';
 
 const ChangeCateName = (category) => {
   const categoryNames = {
@@ -53,7 +54,11 @@ const ListPage = () => {
   }, [category]);
 
   if (isLoading) {
-    return <S.ListLoding>로딩 중...</S.ListLoding>;
+    return (
+      <S.ListLoding>
+        <Loading />
+      </S.ListLoding>
+    );
   }
   return (
     <S.ListPageWrap>
