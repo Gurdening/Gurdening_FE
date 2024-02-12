@@ -1,14 +1,14 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import * as S from './CategoryItem.Style';
+import * as S from './HomeCateItem.Style';
 
-const CateItem = ({ name, icon, path }) => {
+const HomeCateItem = ({ name, icon, path }) => {
   const navigate = useNavigate();
 
   const handleItemClick = () => {
     navigate(path);
   };
-
+  HomeCateItem;
   return (
     <S.CateItemWrapper onClick={handleItemClick}>
       <S.CateIconWrapper>
@@ -21,4 +21,4 @@ const CateItem = ({ name, icon, path }) => {
   );
 };
 
-export default CateItem;
+export default HomeCateItem;
