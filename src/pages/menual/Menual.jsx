@@ -36,7 +36,7 @@ const Menual = () => {
       } catch (error) {
         console.error('메뉴얼을 불러오는데 실패했습니다:', error);
       } finally {
-        setIsLoading(false); // 데이터 로딩 완료
+        setIsLoading(false);
       }
     };
 

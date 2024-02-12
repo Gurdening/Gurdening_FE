@@ -10,7 +10,6 @@ import Emoji_HOME from '../../assets/emojis/emoji-home.png';
 import Emoji_EXERCISE from '../../assets/emojis/emoji-exercise.png';
 import Emoji_LAW from '../../assets/emojis/emoji-law.png';
 
-// 카테고리 데이터 리스트
 const categoryData = [
   { name: '요리', icon: Emoji_COOKING, path: '/category/COOKING' },
   { name: '일상생활', icon: Emoji_DAILY_LIFE, path: '/category/DAILY_LIFE' },

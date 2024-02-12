@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './Suggestion.Style';
 
-function Suggestion() {
+const Suggestion = () => {
   return (
     <S.SugWrap>
       <S.SugLogo>Suggestion</S.SugLogo>
@@ -31,6 +31,6 @@ function Suggestion() {
       </S.SugContainer>
     </S.SugWrap>
   );
-}
+};
 
 export default Suggestion;

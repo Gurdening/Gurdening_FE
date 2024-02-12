@@ -15,7 +15,6 @@ const NavBar = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // 현재 경로와 매개변수로 받은 경로를 비교하는 함수
   const isActive = (path) => location.pathname === path;
 
   return (

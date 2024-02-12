@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import * as S from './BackBtn.Style';
 
-function BacklBtn({ title }) {
+const BacklBtn = ({ title }) => {
   const navigate = useNavigate();
 
   const handleGoBack = () => {
@@ -14,6 +14,6 @@ function BacklBtn({ title }) {
       <S.BackButton onClick={handleGoBack}>{title}</S.BackButton>
     </S.BtnWrap>
   );
-}
+};
 
 export default BacklBtn;
