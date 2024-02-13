@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const BackButton = styled.button`
   background-color: #fbb24d;
+  color: #2d1914;
   font-size: 22px;
   width: 300px;
   height: 50px;
