@@ -10,7 +10,7 @@ import SuggestionIcon from '../../assets/icons/icon-mypage-suggestion.png';
 const myPageItems = [
   { icon: HistoryIcon, text: '최근 본 매뉴얼', path: '/mypage/history' },
   { icon: BookMarkIcon, text: '즐겨찾기', path: '/mypage/bookmark' },
-  { icon: SuggestionIcon, text: '제안하기', path: '/mypage/suggestion' },
+  { icon: SuggestionIcon, text: '문의하기', path: '/mypage/suggestion' },
 ];
 
 const MyPage = () => {

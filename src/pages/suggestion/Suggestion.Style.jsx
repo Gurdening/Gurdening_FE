@@ -29,7 +29,7 @@ export const SugTitle = styled.div`
 export const SugText = styled.div`
   font-size: 15px;
   color: #65551b;
-  line-height: 1.2;
+  line-height: 1.4;
   letter-spacing: 0.3px;
 `;
 
@@ -37,6 +37,6 @@ export const SugDetail = styled.div`
   font-size: 12px;
   color: #6b501e;
   opacity: 0.35;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.3px;
 `;
