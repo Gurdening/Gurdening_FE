@@ -24,5 +24,5 @@ export const CategoryItemsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px; // 아이템 사이의 간격 조정
+  gap: 10px;
 `;
