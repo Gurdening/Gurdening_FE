@@ -4,15 +4,16 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Category from './pages/category/Category';
 import MyPage from './pages/myPage/MyPage';
-import LoginPage from './pages/login/LoginPage';
+// import LoginPage from './pages/login/LoginPage';
 import NavBar from './components/navBar/NavBar';
 import SearchPage from './pages/search/SearchPage';
-import Bookmark from './pages/bookmark/Bookmark';
-import History from './pages/history/History';
+// import Bookmark from './pages/bookmark/Bookmark';
+// import History from './pages/history/History';
 import Suggestion from './pages/suggestion/Suggestion';
 import ErrorPage from './pages/errorPage/ErrorPage';
 import ListPage from './pages/list/ListPage';
 import Menual from './pages/menual/Menual';
+import Incompleted from './components/incompleted/Incompleted';
 
 const Wrapper = styled.div`
   position: relative;
@@ -39,12 +40,11 @@ const App = () => {
           <Route path="/category/:category" element={<ListPage />} />
           <Route path="/category/:category/:postId" element={<Menual />} />
           <Route path="/mypage" element={<MyPage />} />
-          <Route path="/mypage/bookmark" element={<Bookmark />} />
-          <Route path="/mypage/history" element={<History />} />
+          <Route path="/mypage/bookmark" element={<Incompleted />} />
+          <Route path="/mypage/history" element={<Incompleted />} />
           <Route path="/mypage/suggestion" element={<Suggestion />} />
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="/login" element={<Incompleted />} />
           <Route path="/*" element={<ErrorPage />} />
-          {/* 기타 라우트 */}
         </Routes>
       </ContentContainer>
       <NavBar />
