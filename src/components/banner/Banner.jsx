@@ -8,15 +8,15 @@ import * as S from './Banner.Style';
 const images = [
   {
     src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/applying_ointment_Banner.jpeg',
-    route: '/page1',
+    route: '/category/TREATMENT/99',
   },
   {
     src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/brushing_teeth_Banner.jpeg',
-    route: '/page2',
+    route: '/category/CLEANLINESS/97',
   },
   {
     src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/Boiling_an_egg_Banner.jpeg', //이미지 수정
-    route: '/page3',
+    route: '/category/COOKING/91',
   },
 ];
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from '../../components/banner/Banner';
 import * as S from './Home.Style';
-import CategoryList from '../../components/homeComp/CategoryList';
+import HomeCategoryList from '../../components/homeComp/HomeCategoryList';
 import Logo from '../../components/logoComp/Logo';
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
     <S.HomeWrap>
       <Logo />
       <Banner />
-      <CategoryList />
+      <HomeCategoryList />
     </S.HomeWrap>
   );
 };

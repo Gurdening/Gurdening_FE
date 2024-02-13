@@ -1,6 +1,6 @@
 import React from 'react';
-import CateItem from './CateItem';
-import * as S from './CateList.Style';
+import HomeCateItem from './HomeCateItem';
+import * as S from './HomeCategoryList.Style';
 import Emoji_COOKING from '../../assets/emojis/emoji-cooking.png';
 import Emoji_DAILY_LIFE from '../../assets/emojis/emoji-dailylife.png';
 import Emoji_CLEANLINESS from '../../assets/emojis/emoji-cleanliness.png';
@@ -21,19 +21,22 @@ const categoryData = [
   { name: '법률', icon: Emoji_LAW, path: '/category/LAW' },
 ];
 
-const CategoryList = () => {
+const HomeCategoryList = () => {
   return (
-    <S.CateListWrapper>
-      {categoryData.map((category) => (
-        <CateItem
-          key={category.name}
-          name={category.name}
-          icon={category.icon}
-          path={category.path}
-        />
-      ))}
-    </S.CateListWrapper>
+    <S.CategoryListWrapper>
+      <S.CategoryTitle>🤔어떤 매뉴얼이 필요하신가요?</S.CategoryTitle>
+      <S.CategoryItemsContainer>
+        {categoryData.map((category) => (
+          <HomeCateItem
+            key={category.name}
+            name={category.name}
+            icon={category.icon}
+            path={category.path}
+          />
+        ))}
+      </S.CategoryItemsContainer>
+    </S.CategoryListWrapper>
   );
 };
 
-export default CategoryList;
+export default HomeCategoryList;

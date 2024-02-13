@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
 import * as S from './Menual.Style';
 import TopBar from '../../components/topBar/Topbar';
+import Loading from '../../components/loading/Loading';
 
 const Menual = () => {
   const [isLiked, setIsLiked] = useState(false);
@@ -35,7 +36,7 @@ const Menual = () => {
       } catch (error) {
         console.error('메뉴얼을 불러오는데 실패했습니다:', error);
       } finally {
-        setIsLoading(false); // 데이터 로딩 완료
+        setIsLoading(false);
       }
     };
 
@@ -43,7 +44,11 @@ const Menual = () => {
   }, [postId]);
 
   if (isLoading) {
-    return <S.LoadingWrapper>로딩 중...</S.LoadingWrapper>;
+    return (
+      <S.LoadingWrapper>
+        <Loading />
+      </S.LoadingWrapper>
+    );
   }
 
   return (

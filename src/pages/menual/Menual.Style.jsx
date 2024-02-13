@@ -37,9 +37,8 @@ export const ManualImage = styled.img`
 `;
 
 export const LoadingWrapper = styled.div`
-  /* 로딩 상태를 보여주는 스타일링 */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* 전체 화면을 사용 */
+  height: 100vh;
 `;
