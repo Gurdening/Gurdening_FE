@@ -1,11 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
-import AaOrdinary from '../assets/fonts/Aa오디너리.ttf';
+import AaOrdinary_ttf from '../assets/fonts/Aa오디너리.ttf';
+import AaOrdinary_woff2 from '../assets/fonts/Aa오디너리.woff2';
 
 const GlobalStyled = createGlobalStyle`
   @font-face {
   font-family: "AaOrdinary";
-  src: url(${AaOrdinary}) format("truetype");
+  src: url(${AaOrdinary_woff2}) format("woff2"), url(${AaOrdinary_ttf}) format("truetype");
   font-weight: normal;
   }
 
