@@ -38,6 +38,7 @@ const GlobalStyled = createGlobalStyle`
 
     font-family: 'AaOrdinary', sans-serif;
     font-weight: 400;
+    -webkit-text-size-adjust: 100%
   }
 
 `;
