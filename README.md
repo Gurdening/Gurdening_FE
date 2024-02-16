@@ -107,17 +107,17 @@ Firebase was used to host images in the manual, which is the core of our service
 
 ## Features
 
-When the user enters our app, there is a 'Today's Recommendation Manual' banner and manual category on the main screen.
-There is a navigation bar at the bottom.
-The navigation bar consists of homepages, browsing, categories, and my information.
+When the user enters our app, there is a 'Today's Recommendation Manual' banner and manual category on the main screen.<br/>
+There is a navigation bar at the bottom.<br/>
+The navigation bar consists of homepages, browsing, categories, and my information.<br/>
 
-Click the Browse icon to search for manual writing.
+Click the Browse icon to search for manual writing.<br/>
 
-Click the Category icon to view the entire category.
-You can also click each category to view the entire manual text that corresponds to it.
+Click the Category icon to view the entire category.<br/>
+You can also click each category to view the entire manual text that corresponds to it.<br/>
 
-Click the My Information icon to log in.
-If you are logged in, you can use the History and Bookmark features.
+Click the My Information icon to log in.<br/>
+If you are logged in, you can use the History and Bookmark features.<br/>
 
 <hr/>
 
