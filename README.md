@@ -6,7 +6,7 @@
   <h1 style = "display:flex;align-items:center;margin-top:25px"><b>Growmming/Gurdening</b></h1>
   </div>
   <div style = "display:flex;font-size:15px;justify-content:flex-start">
-    <h3><b>Gardening - Guidelines for Children's Sociality and Dyslexia</b></h3>
+    <h3><b>Gurdening - Guidelines for Children's Sociality and Dyslexia</b></h3>
     <h4>
       Gurdening is a service providinga guidebook-style manual forthe prevention of dyslexia in Corona Kids. <br/>
       Our service is a combination of the words 'Gu' from 'Guide' and '-dening' from 'Gardening',<br/>
