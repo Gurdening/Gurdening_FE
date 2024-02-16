@@ -6,7 +6,10 @@
   <h1 style = "display:flex;align-items:center;margin-top:25px"><b>Growmming/Gurdening</b></h1>
   </div>
   <div style = "display:flex;font-size:15px;justify-content:flex-start">
-    Gurdening은 코로나 키즈의 난독증 해결을 위해 가이드북 형태의 매뉴얼을 제공하는 서비스로 팀 Growmming이 제작하였습니다.<br/> Gurdening은 'Guide'의 'Gu-'와 'Gardening'의 '-dening'을 조합한 단어로 매뉴얼을 통해 지식의 정원인 뇌를 가꾸는 것을 의미합니다.<br/> 팀 Growmming은 우리의 서비스(Guide)로 하여금 더불어 살아가는 사회를 바랍니다.
+    <h3><b>Gardening - Guidelines for Children's Sociality and Dyslexia</b></h3> <br/>
+      Gurdening is a service that provides a guidebook-type manual to solve COVID-19's dyslexia. <br/>
+      Our service is a combination of the words 'Gu' from 'Guide' and '-dening' from 'Gardening', which means cultivating the brain, the garden of knowledge, through the manual. <br/>
+      We hope that our services will help <b>‘guide to live together’!</b><br/>
   </div>
 <br/>
 <br/>
@@ -25,11 +28,9 @@ width:80%;margin:0 auto">
 </div>
 
 <h3>우리는 4번과 10번을 선택했다.
-  <br/> 우리 팀은 코로나19 이후, 난독증으로 서울시교육청의 지원을 받는 학생이 7배 넘게 증가, 특히, 초등학생이 94%를 차지한다는 기사를 보았다.
-  <br/> 우리는 이 교육적(4번 Quality Education)으로 상황이 심각한 문제이며, 미래에 더 심한 불평등(10번Reduced Inequalities)을 야기한다고 생각했다.
-  <br/> UN의 지속가능발전 목표의 의의를 생각하며, 이 문제를 해결할 필요성을 느꼈다.
-  <br/> 부디 우리의 서비스가 이 문제를 해결하기를 바란다.
+  We selected Goals No. 4 (Quality Education) and No. 10 (Reduced Inequalities) for our project. 
 </h3>
+This is because we thought that because our service produces 'educational resources', quality education could be solved, and inequality could be solved by providing it to children who are vulnerable to information.
 
 <hr/>
 
@@ -66,7 +67,6 @@ width:80%;margin:0 auto">
     <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
     </div>
 
-
 <hr/>
 
 ## Our architecture
@@ -85,9 +85,13 @@ width:80%;margin:0 auto">
   <br/>
 
 <!-- 개인적으로 안 써도 될 거 같아요. 이미 위에서 쓴 게 끝이기도 하고, 참고한 곳에서도 이 기술에 대해서 좀 더 자세히 작성한 느낌이었는데, 이 기술에 대해서는 구글이 제일 잘 알 거 같아서 위의 내용 정도로 끝내는 것이 좋을 것 같아요. 쓰고 싶으면 써도 됩니다~-->
+
 ## Google Cloud Platform
+
 ## Firebase
+
 ## Google Cloud Run
+
 <!-- 여기 위까지 -->
 <hr />
 
@@ -95,6 +99,7 @@ width:80%;margin:0 auto">
 
 ![image]()
 <br/>
+
 <hr/>
 
 ## Features
@@ -105,10 +110,11 @@ width:80%;margin:0 auto">
 
 찾아보기 아이콘을 눌러, 매뉴얼 글을 검색할 수 있습니다.
 
-카테고리 아이콘을 눌러, 전체 카테고리를 조회할 수 있습니다. 
+카테고리 아이콘을 눌러, 전체 카테고리를 조회할 수 있습니다.
 <br/> 또한 각 카테고리를 눌러 그에 해당하는 매뉴얼 글 전체를 볼 수 있습니다.
 
 <!--일단 그냥 넣기는 했는데 구현 못한 기능이니까 빼는 게 좋을 듯 싶습니다. 정 필요하다면 넣으십시오-->
+
 내 정보 아이콘을 눌러, 로그인을 할 수 있습니다.
 <br/> 로그인을 한 상태라면, 히스토리와 북마크 기능을 이용할 수 있습니다.
 
@@ -116,28 +122,25 @@ width:80%;margin:0 auto">
 
 ## Current / Next Steps
 
-| [O] | [X] |
-| :-------- | :-------- |
-| 1. 개발자가 직접 제작한 매뉴얼 글 10개 | 1. 매뉴얼 글 조회 시 조회 수 증가 |
-| 2. 메인 화면에 개발자가 추천하는 매뉴얼 배너 구현 | 2. 매뉴얼 '좋아요' 기능 |
-| 3. 메인 배너를 통해 해당 매뉴얼로 바로 이동 | 3. 구글 OAuth2 로그인 기능 |
-| 4. 매뉴얼 조회 기능 | 4. 다시 보고 싶은 매뉴얼을 저장할 수 있는 북마크 기능 |
-| 5. 매뉴얼 검색 기능 | |
-| 6. 매뉴얼 글 무한 스크롤 구현 | |
-
+| [O]                                               | [X]                                                   |
+| :------------------------------------------------ | :---------------------------------------------------- |
+| 1. 개발자가 직접 제작한 매뉴얼 글 10개            | 1. 매뉴얼 글 조회 시 조회 수 증가                     |
+| 2. 메인 화면에 개발자가 추천하는 매뉴얼 배너 구현 | 2. 매뉴얼 '좋아요' 기능                               |
+| 3. 메인 배너를 통해 해당 매뉴얼로 바로 이동       | 3. 구글 OAuth2 로그인 기능                            |
+| 4. 매뉴얼 조회 기능                               | 4. 다시 보고 싶은 매뉴얼을 저장할 수 있는 북마크 기능 |
+| 5. 매뉴얼 검색 기능                               |                                                       |
+| 6. 매뉴얼 글 무한 스크롤 구현                     |                                                       |
 
 <hr/>
 
 ## Contributing
 
-
-
 # 👩🏻‍💻 Team of Growmming
 
-|                                김주하                                 |                               박지섭                               |                               박소정                               |                                 안준영                                 |
-| :-------------------------------------------------------------------: | :----------------------------------------------------------------: | :----------------------------------------------------------------: | :-------------------------------------------------------------------: |
+|                                          김주하                                          |                                         박지섭                                         |                                         박소정                                         |                                        안준영                                         |
+| :--------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
 | <img src = "https://avatars.githubusercontent.com/u/101048129?v=4" style="width:230px"/> | <img src="https://avatars.githubusercontent.com/u/141125424?v=4" style="width:230px"/> | <img src="https://avatars.githubusercontent.com/u/112674378?v=4" style="width:230px"/> | <img src="https://avatars.githubusercontent.com/u/52746279?v=4" style="width:230px"/> |
-|              [@laketree2](https://github.com/laketree2)               |               [@HarrySeop](https://github.com/HarrySeop)               |              [@sojeong0202](https://github.com/sojeong0202)              |              [@Junyeong-An](https://github.com/Junyeong-An)               |
+|                        [@laketree2](https://github.com/laketree2)                        |                       [@HarrySeop](https://github.com/HarrySeop)                       |                     [@sojeong0202](https://github.com/sojeong0202)                     |                    [@Junyeong-An](https://github.com/Junyeong-An)                     |
 
 <br />
 파트를 쓰고 싶었는데 마크다운으로 만드는 표는 셀 병합이 안 되는(구글링해서 나오는 방법으로 시도했지만 안 됐음.) 관계로 html로 작성했음. 개인적으로 아래 표가 더 나은 것 같은데 알아서 잘 판단해서 결정해주세요
