@@ -20,7 +20,7 @@ const Menual = () => {
   };
 
   const handleBookmarkClick = () => {
-    setIsBookmarked(!isBookmarked); // 현재 상태를 반전시킴
+    setIsBookmarked(!isBookmarked);
     console.log(`북마크 상태: ${!isBookmarked ? '북마크' : '북마크 취소'}`);
     // TODO: 서버에 북마크 관련 이슈 해결시 진행 가능
   };
