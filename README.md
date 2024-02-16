@@ -74,7 +74,7 @@ This is because we thought that because our service produces 'educational resour
 
 ## Our architecture
 
-<img src = "./src/assets/readme/Gurdening_Architecture.png">
+<img src = "./src/assets/readme/Gurdening_Archi.png">
 <!--![image](이미지 url)-->
 
 ## Google Tech we use
