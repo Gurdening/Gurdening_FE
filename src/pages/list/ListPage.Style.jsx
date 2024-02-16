@@ -29,16 +29,6 @@ export const ListContainer = styled.div`
   gap: 30px 15px;
 `;
 
-export const ListItems = styled.div`
-  border-radius: 16px;
-  overflow: hidden;
-  outline: 2px solid #d2d999;
-  width: 155px;
-  height: 155px;
-  box-sizing: border-box;
-  cursor: pointer;
-`;
-
 export const ListThumb = styled.img`
   width: 100%;
   height: 105px;
@@ -54,14 +44,17 @@ export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: #2d1914;
+  color: white;
   font-size: 12px;
 `;
 
 export const ListTitle = styled.h2`
   font-size: 15px;
   margin: 0;
-  color: #2d1914;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;
 
 export const ListStats = styled.div`
@@ -94,4 +87,24 @@ export const ListLoding = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
+`;
+export const ListItems = styled.div`
+  border-radius: 16px;
+  overflow: hidden;
+  outline: 2px solid #677d22;
+  width: 155px;
+  height: 155px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  &:hover {
+    outline: 2px solid #d2d999;
+    ${InfoContainer} {
+      background-color: #d2d999;
+    }
+
+    ${ListTitle}, ${StatContainer} {
+      color: #2d1914;
+    }
+  }
 `;
