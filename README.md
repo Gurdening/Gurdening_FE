@@ -2,7 +2,7 @@
 
 <div align="center">
   <div style = "display:flex;justify-content:center;gap:10px;align-items:center">
-  <img src = "이미지" style = "width:65px" >
+  <img src = "./src/assets/images/BannerLogo.png" style = "width:65px" >
   <h1 style = "display:flex;align-items:center;margin-top:25px"><b>Growmming/Gurdening</b></h1>
   </div>
   <div style = "display:flex;font-size:15px;justify-content:flex-start">
@@ -74,7 +74,7 @@ This is because we thought that because our service produces 'educational resour
 
 ## Our architecture
 
-![image](이미지 url)
+<img src = "./src/assets/readme/Gurdening_Architecture.png">![image](이미지 url)
 
 ## Google Tech we use
 
@@ -88,16 +88,18 @@ This is because we thought that because our service produces 'educational resour
   <br/>
 
 ## Google Cloud Platform
-GCP was used for user identification and safety of our service with flexible server operation and Google login support through OAuth2.
-## Firebase
-Firebase was used to host images in the manual, which is the core of our service. This allows us to help users understand by providing them with a contextual picture.
 
+GCP was used for user identification and safety of our service with flexible server operation and Google login support through OAuth2.
+
+## Firebase
+
+Firebase was used to host images in the manual, which is the core of our service. This allows us to help users understand by providing them with a contextual picture.
 
 <hr />
 
 ## Database ERD
 
-![image]()
+<img src = "./src/assets/readme/erd.png">![image]()
 <br/>
 
 <hr/>
@@ -116,19 +118,18 @@ You can also click each category to view the entire manual text that corresponds
 Click the My Information icon to log in.
 If you are logged in, you can use the History and Bookmark features.
 
-
 <hr/>
 
 ## Current / Next Steps
 
-| [O]                                               | [X]                                                   |
-| :------------------------------------------------ | :---------------------------------------------------- |
-| 1. 10 manual articles produced by developers themselves          | 1. Increase the number of views when viewing manual articles                     |
-| 2. Implementation of the manual banner recommended by the developer on the main screen  | 2. Manual 'Like' function                               |
-| 3. Directly to the corresponding manual via the main banner        | 3. Google OAuth2 login function                            |
-| 4. Manual inquiry function                              | 4. Bookmark function to save the manual you want to see again |
-| 5. Manual search function                               |                                                       |
-| 6. Implementation of unlimited scrolling of manual writing                     |                                                       |
+| [O]                                                                                    | [X]                                                           |
+| :------------------------------------------------------------------------------------- | :------------------------------------------------------------ |
+| 1. 10 manual articles produced by developers themselves                                | 1. Increase the number of views when viewing manual articles  |
+| 2. Implementation of the manual banner recommended by the developer on the main screen | 2. Manual 'Like' function                                     |
+| 3. Directly to the corresponding manual via the main banner                            | 3. Google OAuth2 login function                               |
+| 4. Manual inquiry function                                                             | 4. Bookmark function to save the manual you want to see again |
+| 5. Manual search function                                                              |                                                               |
+| 6. Implementation of unlimited scrolling of manual writing                             |                                                               |
 
 <hr/>
 
