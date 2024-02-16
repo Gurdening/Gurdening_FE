@@ -2,7 +2,7 @@
 
 <div align="center">
   <div style = "display:flex;justify-content:center;gap:10px;align-items:center">
-  <img src = "./src/assets/images/BannerLogo.png" style = "width:65px" >
+  <img src = "./src/assets/images/BannerLogo.png" style = "width:250px" >
   <h1 style = "display:flex;align-items:center;margin-top:25px"><b>Growmming/Gurdening</b></h1>
   </div>
   <div style = "display:flex;font-size:15px;justify-content:flex-start">
@@ -74,7 +74,8 @@ This is because we thought that because our service produces 'educational resour
 
 ## Our architecture
 
-<img src = "./src/assets/readme/Gurdening_Architecture.png">![image](이미지 url)
+<img src = "./src/assets/readme/Gurdening_Architecture.png">
+<!--![image](이미지 url)-->
 
 ## Google Tech we use
 
@@ -99,7 +100,7 @@ Firebase was used to host images in the manual, which is the core of our service
 
 ## Database ERD
 
-<img src = "./src/assets/readme/erd.png">![image]()
+<img src = "./src/assets/readme/erd.png">
 <br/>
 
 <hr/>
@@ -122,7 +123,7 @@ If you are logged in, you can use the History and Bookmark features.
 
 ## Current / Next Steps
 
-| [O]                                                                                    | [X]                                                           |
+| [O] Achievement                                                                                    | [X] Scalability                                                          |
 | :------------------------------------------------------------------------------------- | :------------------------------------------------------------ |
 | 1. 10 manual articles produced by developers themselves                                | 1. Increase the number of views when viewing manual articles  |
 | 2. Implementation of the manual banner recommended by the developer on the main screen | 2. Manual 'Like' function                                     |
