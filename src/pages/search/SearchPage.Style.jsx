@@ -10,11 +10,16 @@ export const SearchCont = styled.div`
 export const SearchInput = styled.input`
   width: 100%;
   margin-top: 15px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 23px;
   border: 1px solid #ddd;
   border-radius: 15px;
+
+  &::placeholder {
+    color: #cac5b4;
+    opacity: 1;
+  }
 `;
 
 export const SearchTitle = styled.div`

@@ -10,7 +10,6 @@ export const MyPageListWrapper = styled.div`
 export const MyPageTitle = styled.div`
   background-color: var(--sub-color);
   color: white;
-  // color: #2d1914;
   font-size: 20px;
   font-weight: 500;
   height: 50px;
