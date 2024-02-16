@@ -29,16 +29,20 @@ const GlobalStyled = createGlobalStyle`
   }
   }
 
-  body{
-    box-sizing: border-box;
-    width: 375px;
-    height: 100vh;
-    background-color: #D2D2D2;
-    margin: 0 auto;
-
+  body {
+    margin: 0;
+    padding: 0;
     font-family: 'AaOrdinary', sans-serif;
     font-weight: 400;
-    -webkit-text-size-adjust: 100%
+    background-color: white;
+    width: 375px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 480px) {
+    body {
+      background-color: #d2d2d2;
+    }
   }
 
 `;

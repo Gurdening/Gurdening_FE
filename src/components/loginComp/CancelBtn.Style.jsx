@@ -21,6 +21,6 @@ export const Cancel = styled.button`
   }
 
   &:active {
-    border: 2px solid #473513; // 클릭 시 테두리 추가
+    border: 2px solid #473513;
   }
 `;
