@@ -10,7 +10,6 @@ const LogoutBtn = () => {
     // Or if using a global state management
     // dispatch(logoutUserAction());
 
-    // Redirect to login or home page
     navigate('/home');
   };
 

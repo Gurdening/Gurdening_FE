@@ -42,7 +42,8 @@ const App = () => {
           <Route path="/category/:category/:postId" element={<Menual />} />
           <Route path="/mypage" element={<MyPage />} />
           <Route path="/mypage/bookmark" element={<Incompleted />} />
-          <Route path="/mypage/history" element={<Incompleted />} />
+          {/* <Route path="/mypage/history" element={<Incompleted />} /> */}
+          <Route path="/mypage/history" element={<History />} />
           <Route path="/mypage/suggestion" element={<Suggestion />} />
           {/* <Route path="/login" element={<Incompleted />} /> */}
           <Route path="/login" element={<LoginPage />} />
