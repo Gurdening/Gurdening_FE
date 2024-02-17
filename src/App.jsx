@@ -14,6 +14,7 @@ import ErrorPage from './pages/errorPage/ErrorPage';
 import ListPage from './pages/list/ListPage';
 import Menual from './pages/menual/Menual';
 import Incompleted from './components/incompleted/Incompleted';
+import LoginPage from './pages/login/LoginPage';
 
 const Wrapper = styled.div`
   position: relative;
@@ -43,7 +44,8 @@ const App = () => {
           <Route path="/mypage/bookmark" element={<Incompleted />} />
           <Route path="/mypage/history" element={<Incompleted />} />
           <Route path="/mypage/suggestion" element={<Suggestion />} />
-          <Route path="/login" element={<Incompleted />} />
+          {/* <Route path="/login" element={<Incompleted />} /> */}
+          <Route path="/login" element={<LoginPage />} />
           <Route path="/*" element={<ErrorPage />} />
         </Routes>
       </ContentContainer>
