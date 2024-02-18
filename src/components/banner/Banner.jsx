@@ -8,7 +8,7 @@ import * as S from './Banner.Style';
 const images = [
   {
     src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/applying_ointment_Banner.jpeg',
-    route: '/category/TREATMENT/76', //76
+    route: '/category/TREATMENT/84', //84
   },
   {
     src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/brushing_teeth_Banner.jpeg',
@@ -16,7 +16,7 @@ const images = [
   },
   {
     src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/Boiling_an_egg_Banner.jpeg',
-    route: '/category/COOKING/84', //84
+    route: '/category/COOKING/76', //76
   },
 ];
 
