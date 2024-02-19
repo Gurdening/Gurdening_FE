@@ -41,7 +41,7 @@ This is because we thought that because our service produces 'educational resour
 
 <div align="center">
  
-<a href = "우리 유튜브 영상">[![](우리 ppt or 유튜브 이미지)](우리 유튜브 영상)
+<a href = "https://www.youtube.com/watch?v=jngKF2TCtLg">[![](https://img.youtube.com/vi/jngKF2TCtLg/0.jpg)](https://www.youtube.com/watch?v=jngKF2TCtLg)
 </a>
 
 </div>
