@@ -68,7 +68,7 @@ This is because we thought that because our service produces 'educational resour
   <h3><b>Mobile</b></h3> <!--expo 추가요망-->
     <div style = "display:flex;gap:5px;">
     <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
-    <img src="https://img.shields.io/badge/Expo-000000?style=flat-square&logo=Expo&logoColor=white"/>
+    <img src="https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37"/>
     </div>
 
 <hr/>
