@@ -1,4 +1,40 @@
 <!-- 영어 번역기나 뤼튼, 지피티 돌릴 때 좋은 결과를 얻기 위해서 한국어 말투가 좀 어색할 수 있습니다~~~-->
+<div align="center">
+  <br/>
+  <a href=""><img src="./src/assets/readme/readme-main.png" width="83.7%" /></a>
+  <br/>
+  <hr/>
+  <p>Google Developer Student Clubs 2024 Solution Challenge<br/>
+  Team Growmming <b>Gurdening</b> FrontEnd</p>
+  <i>2023. 12. 01 ~ 2024. 02. 22</i>
+  <br/><br/>
+  <a href=""><img src="./src/assets/readme/readme-logo.png" width=50% /></a>
+  <br/><br/>
+  <table>
+    <tr>
+      <td align="center" colspan="3"><b>Project Resources</b></td>
+    </tr>
+    <tr>
+      <td><a href="https://gurdening.vercel.app">View in Web</a></td>
+      <td><a href="https://drive.google.com/file/d/1s2QVXdCUOvf5_rZIxgLwhy5MoawCVlCu/view?usp=drive_link">
+        Download mobile app</a></td>
+      <td><a href="https://gurdening.duckdns.org/swagger-ui/index.html">Documentation</a></td>
+    </tr>
+  </table>
+  <hr/>
+  
+  <h1>Gurdening : Guidelines for Children's Sociality and Dyslexia</h1>
+
+```
+    Gurdening is a service providinga guidebook-style manual forthe prevention of dyslexia in Corona Kids.
+    Our service is a combination of the words 'Gu' from 'Guide' and '-dening' from 'Gardening',
+    which means cultivating the brain, the garden of knowledge, through the manual
+    We hope that our services will help ‘guide to live together’!
+```
+
+  <h2>Our Selection Within the UN's 17 sustainable development goals</h2>
+
+</div>
 
 <div align="center">
   <div style = "display:flex;justify-content:center;gap:10px;align-items:center">
@@ -7,14 +43,10 @@
   </div>
   <div style = "display:flex;font-size:15px;justify-content:flex-start">
     <h3><b>Gurdening - Guidelines for Children's Sociality and Dyslexia</b></h3>
-    <h4>
-      Gurdening is a service providinga guidebook-style manual forthe prevention of dyslexia in Corona Kids. <br/>
-      Our service is a combination of the words 'Gu' from 'Guide' and '-dening' from 'Gardening',<br/>
-      which means cultivating the brain, the garden of knowledge, through the manual. <br/>
-      We hope that our services will help <b>‘guide to live together’!</b>
-    </h4>
+    
   </div>
 <br/>
+    
     
 | <a href="https://gurdening.vercel.app">View in Web</a> | <a href="https://gurdening.duckdns.org/swagger-ui/index.html">Documentation</a> | <a href="다운로드 링크">Download mobile app</a> |
 |:---------:|:---------:|:---------:|
@@ -124,7 +156,7 @@ If you are logged in, you can use the History and Bookmark features.<br/>
 
 ## Current / Next Steps
 
-| [O] Achievement                                                                                    | [X] Scalability                                                          |
+| [O] Achievement                                                                        | [X] Scalability                                               |
 | :------------------------------------------------------------------------------------- | :------------------------------------------------------------ |
 | 1. 10 manual articles produced by developers themselves                                | 1. Increase the number of views when viewing manual articles  |
 | 2. Implementation of the manual banner recommended by the developer on the main screen | 2. Manual 'Like' function                                     |
