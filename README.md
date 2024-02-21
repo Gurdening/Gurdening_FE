@@ -23,7 +23,7 @@
   </table>
   <hr/>
   
-  # Guidelines for Children's Sociality and Dyslexia
+  ## Manual for Preventing Dyslexia and Enhancing Literacy in Children
 
   <blockquote>
     Gurdening is a service providinga guidebook-style manual forthe prevention of dyslexia in Corona Kids.<br/>
