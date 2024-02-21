@@ -1,12 +1,13 @@
 <!-- 영어 번역기나 뤼튼, 지피티 돌릴 때 좋은 결과를 얻기 위해서 한국어 말투가 좀 어색할 수 있습니다~~~-->
 <div align="center">
-  <br/>
-  
-  ### Google Developer Student Clubs 2024 Solution Challenge <br/> Team Growmming <b>Gurdening</b> FrontEnd
-  <i><b>2023. 12. 01 ~ 2024. 02. 22</b></i>
-  <br/><br/>
-  <a href=""><img src="./src/assets/readme/readme-logo.png" width=50% /></a>
-  <br/><br/>
+
+### Google Developer Student Clubs 2024 Solution Challenge <br/> Team Growmming <b>Gurdening</b> FrontEnd
+
+<i><b>2023. 12. 01 ~ 2024. 02. 22</b></i>
+<br/><br/>
+<a href=""><img src="./src/assets/readme/readme-logo.png" width=50% /></a>
+<br/><br/>
+
   <table>
     <tr>
       <td align="center" colspan="3">
@@ -22,7 +23,7 @@
   </table>
   <hr/>
   
-  <h2> Guidelines for Children's Sociality and Dyslexia </h2>
+  # Guidelines for Children's Sociality and Dyslexia
 
   <blockquote>
     Gurdening is a service providinga guidebook-style manual forthe prevention of dyslexia in Corona Kids.<br/>
@@ -36,7 +37,7 @@
 
 ## Our Selection Within the UN's 17 sustainable development goals
 
-  <table style="text-align: center;">
+  <table style="text-align: center; width:90%;">
     <tr>
       <td>
         <img src="https://developers.google.com/static/community/images/gdsc-solution-challenge/goal-04_480.png"/>
@@ -59,7 +60,7 @@
 
   <table style="text-align: center;">
     <tr>
-      <td colspan="4">
+      <td colspan="4" align="center">
         <b>Primary Feature</b>
       </td>
     </tr>
@@ -69,10 +70,10 @@
       </td>
     </tr>
     <tr>
-      <td><b>Home</b></td>
-      <td><b>Search</b></td>
-      <td><b>Category</b></td>
-      <td><b>MyPage</b></td>
+      <td align="center"><b>Home</b></td>
+      <td align="center"><b>Search</b></td>
+      <td align="center"><b>Category</b></td>
+      <td align="center"><b>MyPage</b></td>
     </tr>
     <tr>
       <td><img src="./src/assets/readme/readme-home.gif" /></td>
