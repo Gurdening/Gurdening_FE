@@ -5,7 +5,7 @@
 
 <i><b>2023. 12. 01 ~ 2024. 02. 22</b></i>
 <br/><br/>
-<a href=""><img src="./src/assets/readme/readme-logo.png" width=50% /></a>
+<a href=""><img src="https://github.com/Growmming/Gurdening_Frontend/assets/141125424/f15682b9-188f-4a50-9460-48f8760b38ec" width=50% /></a>
 <br/><br/>
 
   <table>
@@ -59,7 +59,7 @@
 # About our Project
 
   <a href="https://www.youtube.com/watch?v=jngKF2TCtLg">
-    <img src="./src/assets/readme/readme-main.png" style="width:90%"/>
+    <img src="https://github.com/Growmming/Gurdening_Frontend/assets/141125424/c2fa0789-4576-4e9b-bad4-c103c4cc6886" style="width:90%"/>
   </a>
   <br/><br/>
   <table>
@@ -73,8 +73,9 @@
       <td align="center" ><b>Search</b></td>
     </tr>
     <tr>
-      <td><img src="./src/assets/readme/readme-home.gif" /></td>
-      <td><img src="./src/assets/readme/readme-search.gif"/></td>
+      <td><img src="https://github.com/Growmming/Gurdening_Frontend/assets/141125424/2379fea2-deed-416a-b78b-73bc4b55047d" />
+      </td>
+      <td><img src="https://github.com/Growmming/Gurdening_Frontend/assets/141125424/e2102944-713c-4360-9ff7-9da04e9c5df6"/></td>
     </tr>
   </table>
 
@@ -96,8 +97,8 @@
       <td align="center"><b>MyPage</b></td>
     </tr>
     <tr>
-      <td><img src="./src/assets/readme/readme-category.gif"/></td>
-      <td><img src="./src/assets/readme/readme-mypage.gif"/></td>
+      <td><img src="https://github.com/Growmming/Gurdening_Frontend/assets/141125424/342cf6c8-1da0-4936-856c-d38c6977ac38"/></td>
+      <td><img src="https://github.com/Growmming/Gurdening_Frontend/assets/141125424/40629138-6cc5-460a-80e9-490c1ed0e4fd"/></td>
     </tr>
   </table>
 
@@ -175,7 +176,7 @@
 
 # Our architecture
 
-  <img src = "./src/assets/readme/readme_archi.png">
+  <img src = "https://github.com/Growmming/Gurdening_Frontend/assets/141125424/21e8f511-ddd7-4d71-8e3b-e9e74097d2a7">
 
 </div>
 <br/>
@@ -202,14 +203,14 @@ while Firebase was chosen for its simplicity in hosting images.</h3>
 
 # Database ERD
 
-<img src = "./src/assets/readme/readme-erd.png"/>
+<img src = "https://github.com/Growmming/Gurdening_Frontend/assets/141125424/dfca7135-4e18-45bb-a91d-c3838010913e"/>
 <hr/>
 
 # Current / Next Steps
 
 | [O] Achievement                                                                        | [X] Scalability                                               |
 | :------------------------------------------------------------------------------------- | :------------------------------------------------------------ |
-| 1. 10 manual articles produced by developers themselves                                | 1. Increase the number of views when viewing manual articles  |
+| 1. manual articles produced by developers themselves                                   | 1. Increase the number of views when viewing manual articles  |
 | 2. Implementation of the manual banner recommended by the developer on the main screen | 2. Manual 'Like' function                                     |
 | 3. Directly to the corresponding manual via the main banner                            | 3. Google OAuth2 login function                               |
 | 4. Manual inquiry function                                                             | 4. Bookmark function to save the manual you want to see again |
