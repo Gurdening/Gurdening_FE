@@ -1,20 +1,20 @@
 <!-- 영어 번역기나 뤼튼, 지피티 돌릴 때 좋은 결과를 얻기 위해서 한국어 말투가 좀 어색할 수 있습니다~~~-->
 <div align="center">
   <br/>
-  <a href=""><img src="./src/assets/readme/readme-main.png" width="83.7%" /></a>
-  <br/>
-  <hr/>
-  <p>Google Developer Student Clubs 2024 Solution Challenge<br/>
-  Team Growmming <b>Gurdening</b> FrontEnd</p>
-  <i>2023. 12. 01 ~ 2024. 02. 22</i>
+  
+  <p style="font-size:22px; font-weight:500;">Google Developer Student Clubs 2024 Solution Challenge<br/>
+  Team Growmming <span style="font-weight:bold;">Gurdening</span> FrontEnd</p>
+  <i style="font-size:20px">2023. 12. 01 ~ 2024. 02. 22</i>
   <br/><br/>
   <a href=""><img src="./src/assets/readme/readme-logo.png" width=50% /></a>
   <br/><br/>
   <table>
     <tr>
-      <td align="center" colspan="3"><b>Project Resources</b></td>
+      <td align="center" colspan="3">
+        <span style="font-size: 20px; font-weight: 600;">Project Resources</span>
+      </td>
     </tr>
-    <tr>
+    <tr style="font-size:20px;">
       <td><a href="https://gurdening.vercel.app">View in Web</a></td>
       <td><a href="https://drive.google.com/file/d/1s2QVXdCUOvf5_rZIxgLwhy5MoawCVlCu/view?usp=drive_link">
         Download mobile app</a></td>
@@ -23,18 +23,76 @@
   </table>
   <hr/>
   
-  <h1>Gurdening : Guidelines for Children's Sociality and Dyslexia</h1>
+  <p style="font-size: 32px; font-weight: 600;">Guidelines for Children's Sociality and Dyslexia</p>
 
 ```
-    Gurdening is a service providinga guidebook-style manual forthe prevention of dyslexia in Corona Kids.
-    Our service is a combination of the words 'Gu' from 'Guide' and '-dening' from 'Gardening',
-    which means cultivating the brain, the garden of knowledge, through the manual
-    We hope that our services will help ‘guide to live together’!
+Gurdening is a service providinga guidebook-style manual forthe prevention of dyslexia in Corona Kids.
+Our service is a combination of the words 'Gu' from 'Guide' and '-dening' from 'Gardening',
+which means cultivating the brain, the garden of knowledge, through the manual
+We hope that our services will help ‘guide to live together’!
 ```
+
+  <br/>
+  <br/>
+  <table style="text-align: center;">
+    <tr>
+      <td colspan="2">
+        <span style="font-size: 23px; font-weight: bold;">
+          Our Selection Within the UN's 17 sustainable development goals
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        <img src="https://developers.google.com/static/community/images/gdsc-solution-challenge/goal-04_480.png"/>
+      </td>
+      <td style="text-align: center;">
+        <img src="https://developers.google.com/static/community/images/gdsc-solution-challenge/goal-10_480.png" />
+      </td>
+    </tr>
+  </table>
+  <br/>
+  <blockquote>
+    <h3 style="color:#FFFFFF;">
+    We selected Goals No. 4 (Quality Education) and No. 10 (Reduced Inequalities) for our project. 
+    </h3>
+    <span>This is because we thought that because our service produces 'educational resources', quality education could be solved, and inequality could be solved by providing it to children who are vulnerable to information.</span>
+  </blockquote>
+  <br/><hr/>
+
+  <p style="font-size:35px; font-weight:500; color:#FFFFFF;">About our Project</p>
+  <table style="text-align: center;">
+    <tr>
+      <td colspan="4">
+        <span style="font-size:20px; font-weight:500">Primary Feature</span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <img src="./src/assets/readme/readme-main.png"/>
+      </td>
+    </tr>
+    <tr style="font-weight:500; font-size:20px;">
+      <td>Home</td>
+      <td>Search</td>
+      <td>Category</td>
+      <td>Mypage</td>
+    </tr>
+    <tr>
+      <td><img src="./src/assets/readme/readme-home.gif" /></td>
+      <td><img src="./src/assets/readme/readme-search.gif" /></td>
+      <td><img src="./src/assets/readme/readme-category.gif" /></td>
+      <td><img src="./src/assets/readme/readme-mypage.gif" /></td>
+    </tr>
+  </table>
+  
+</div>
+
+<div>
+  
+</div>
 
   <h2>Our Selection Within the UN's 17 sustainable development goals</h2>
-
-</div>
 
 <div align="center">
   <div style = "display:flex;justify-content:center;gap:10px;align-items:center">
