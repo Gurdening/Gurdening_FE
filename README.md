@@ -62,7 +62,7 @@
     <img src="./src/assets/readme/readme-main.png" style="width:90%"/>
   </a>
   <br/><br/>
-  <table style="text-align: center;">
+  <table>
     <tr>
       <td colspan="2" align="center">
         <b>Primary Feature</b>
@@ -77,10 +77,10 @@
       <td><img src="./src/assets/readme/readme-search.gif"/></td>
     </tr>
     <tr>
-      <td style="height:100px; width:50%;">
+      <td style="width:50%;">
         There is a 'Today's Recommendation Manual' banner and manual category on the main screen.
       </td>
-      <td style="height:100px; width:50%;">
+      <td style="width:50%;">
         Click the Browse icon to search for manual writing.
       </td>
     </tr>
@@ -93,13 +93,13 @@
       <td><img src="./src/assets/readme/readme-mypage.gif"/></td>
     </tr>
     <tr>
-      <td style="height:100px; width:50%;">
-          Click the Category icon to view the entire category.<br/>
-          You can also click each category to view the entire manual text that corresponds to it.
+      <td style="width:50%;">
+        Click the Category icon to view the entire category.<br/>
+        You can also click each category to view the entire manual text that corresponds to it.
       </td>
-      <td style="height:100px; width:50%;">
-          Click the My Information icon to log in.<br/>
-          If you are logged in, you can use the History and Bookmark features.
+      <td style="width:50%;">
+        Click the My Information icon to log in.<br/>
+        If you are logged in, you can use the History and Bookmark features.
       </td>
     </tr>
   </table>
