@@ -58,31 +58,62 @@
 
 # About our Project
 
+  <a href="https://www.youtube.com/watch?v=jngKF2TCtLg">
+    <img src="./src/assets/readme/readme-main.png" style="width:90%"/>
+  </a>
+  <br/><br/>
   <table style="text-align: center;">
     <tr>
-      <td colspan="4" align="center">
+      <td colspan="2" align="center">
         <b>Primary Feature</b>
       </td>
     </tr>
     <tr>
-      <td colspan="4">
-        <img src="./src/assets/readme/readme-main.png"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>Home</b></td>
-      <td align="center"><b>Search</b></td>
-      <td align="center"><b>Category</b></td>
-      <td align="center"><b>MyPage</b></td>
+      <td align="center" style="width:50%"><b>Home</b></td>
+      <td align="center" style="width:50%"><b>Search</b></td>
     </tr>
     <tr>
       <td><img src="./src/assets/readme/readme-home.gif" /></td>
       <td><img src="./src/assets/readme/readme-search.gif" /></td>
+    </tr>
+    <tr>
+      <td>
+        <p>
+          When the user enters our app, there is a 'Today's Recommendation Manual' banner and manual category on the main screen.<br/>
+          There is a navigation bar at the bottom.<br/>
+          The navigation bar consists of homepages, browsing, categories, and my information.
+        </p>
+      </td>
+      <td>
+        <p>Click the Browse icon to search for manual writing.</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="width:50%"><b>Category</b></td>
+      <td align="center" style="width:50%"><b>MyPage</b></td>
+    </tr>
+    <tr>
       <td><img src="./src/assets/readme/readme-category.gif" /></td>
       <td><img src="./src/assets/readme/readme-mypage.gif" /></td>
     </tr>
+    <tr>
+      <td>
+        <p>
+          Click the Category icon to view the entire category.<br/>
+          You can also click each category to view the entire manual text that corresponds to it.
+        </p>
+      </td>
+      <td>
+        <p>
+          Click the My Information icon to log in.<br/>
+          If you are logged in, you can use the History and Bookmark features.
+        </p>
+      </td>
+    </tr>
   </table>
   
+  ## Tech Stack
+
 </div>
 
 <div>
@@ -194,18 +225,6 @@ Firebase was used to host images in the manual, which is the core of our service
 <hr/>
 
 ## Features
-
-When the user enters our app, there is a 'Today's Recommendation Manual' banner and manual category on the main screen.<br/>
-There is a navigation bar at the bottom.<br/>
-The navigation bar consists of homepages, browsing, categories, and my information.<br/>
-
-Click the Browse icon to search for manual writing.<br/>
-
-Click the Category icon to view the entire category.<br/>
-You can also click each category to view the entire manual text that corresponds to it.<br/>
-
-Click the My Information icon to log in.<br/>
-If you are logged in, you can use the History and Bookmark features.<br/>
 
 <hr/>
 
