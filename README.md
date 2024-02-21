@@ -2,9 +2,8 @@
 <div align="center">
   <br/>
   
-  <p style="font-size:22px; font-weight:500;">Google Developer Student Clubs 2024 Solution Challenge<br/>
-  Team Growmming <span style="font-weight:bold;">Gurdening</span> FrontEnd</p>
-  <i style="font-size:20px">2023. 12. 01 ~ 2024. 02. 22</i>
+  #### Google Developer Student Clubs 2024 Solution Challenge <br/> Team Growmming <b>Gurdening</b> FrontEnd
+  <i><b>2023. 12. 01 ~ 2024. 02. 22</b></i>
   <br/><br/>
   <a href=""><img src="./src/assets/readme/readme-logo.png" width=50% /></a>
   <br/><br/>
@@ -23,7 +22,7 @@
   </table>
   <hr/>
   
-  <p style="font-size: 32px; font-weight: 600;">Guidelines for Children's Sociality and Dyslexia</p>
+  <h2> Guidelines for Children's Sociality and Dyslexia </h2>
 
 ```
 Gurdening is a service providinga guidebook-style manual forthe prevention of dyslexia in Corona Kids.
