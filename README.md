@@ -76,6 +76,16 @@
       <td><img src="./src/assets/readme/readme-home.gif" /></td>
       <td><img src="./src/assets/readme/readme-search.gif"/></td>
     </tr>
+  </table>
+
+<blockquote align="start">
+  <b>Home:</b> When the user enters our app, there is a 'Today's Recommendation Manual' banner and manual category on the main screen.<br/>
+  The navigation bar consists of homepages, browsing, categories, and my information.
+  <br/><br/>
+  <b>Search:</b> Click the Browse icon to search for manual writing.
+</blockquote>
+
+  <table>
     <tr>
       <td style="width:50%;">
         There is a 'Today's Recommendation Manual' banner and manual category on the main screen.
