@@ -2,7 +2,7 @@
 <div align="center">
   <br/>
   
-  #### Google Developer Student Clubs 2024 Solution Challenge <br/> Team Growmming <b>Gurdening</b> FrontEnd
+  ### Google Developer Student Clubs 2024 Solution Challenge <br/> Team Growmming <b>Gurdening</b> FrontEnd
   <i><b>2023. 12. 01 ~ 2024. 02. 22</b></i>
   <br/><br/>
   <a href=""><img src="./src/assets/readme/readme-logo.png" width=50% /></a>
@@ -10,10 +10,10 @@
   <table>
     <tr>
       <td align="center" colspan="3">
-        <span style="font-size: 20px; font-weight: 600;">Project Resources</span>
+        <b>Project Resources</b>
       </td>
     </tr>
-    <tr style="font-size:20px;">
+    <tr>
       <td><a href="https://gurdening.vercel.app">View in Web</a></td>
       <td><a href="https://drive.google.com/file/d/1s2QVXdCUOvf5_rZIxgLwhy5MoawCVlCu/view?usp=drive_link">
         Download mobile app</a></td>
@@ -24,46 +24,43 @@
   
   <h2> Guidelines for Children's Sociality and Dyslexia </h2>
 
-```
-Gurdening is a service providinga guidebook-style manual forthe prevention of dyslexia in Corona Kids.
-Our service is a combination of the words 'Gu' from 'Guide' and '-dening' from 'Gardening',
-which means cultivating the brain, the garden of knowledge, through the manual
-We hope that our services will help ‘guide to live together’!
-```
+  <blockquote>
+    Gurdening is a service providinga guidebook-style manual forthe prevention of dyslexia in Corona Kids.<br/>
+    Our service is a combination of the words 'Gu' from 'Guide' and '-dening' from 'Gardening',<br/>
+    which means cultivating the brain, the garden of knowledge, through the manual<br/>
+    We hope that our services will help ‘guide to live together’!
+  </blockquote>
 
   <br/>
   <br/>
+
+## Our Selection Within the UN's 17 sustainable development goals
+
   <table style="text-align: center;">
     <tr>
-      <td colspan="2">
-        <span style="font-size: 23px; font-weight: bold;">
-          Our Selection Within the UN's 17 sustainable development goals
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">
+      <td>
         <img src="https://developers.google.com/static/community/images/gdsc-solution-challenge/goal-04_480.png"/>
       </td>
-      <td style="text-align: center;">
+      <td>
         <img src="https://developers.google.com/static/community/images/gdsc-solution-challenge/goal-10_480.png" />
       </td>
     </tr>
   </table>
   <br/>
   <blockquote>
-    <h3 style="color:#FFFFFF;">
+    <h3>
     We selected Goals No. 4 (Quality Education) and No. 10 (Reduced Inequalities) for our project. 
     </h3>
-    <span>This is because we thought that because our service produces 'educational resources', quality education could be solved, and inequality could be solved by providing it to children who are vulnerable to information.</span>
+    <p>This is because we thought that because our service produces 'educational resources', quality education could be solved, and inequality could be solved by providing it to children who are vulnerable to information.</p>
   </blockquote>
   <br/><hr/>
 
-  <p style="font-size:35px; font-weight:500; color:#FFFFFF;">About our Project</p>
+# About our Project
+
   <table style="text-align: center;">
     <tr>
       <td colspan="4">
-        <span style="font-size:20px; font-weight:500">Primary Feature</span>
+        <b>Primary Feature</b>
       </td>
     </tr>
     <tr>
@@ -71,11 +68,11 @@ We hope that our services will help ‘guide to live together’!
         <img src="./src/assets/readme/readme-main.png"/>
       </td>
     </tr>
-    <tr style="font-weight:500; font-size:20px;">
-      <td>Home</td>
-      <td>Search</td>
-      <td>Category</td>
-      <td>Mypage</td>
+    <tr>
+      <td><b>Home</b></td>
+      <td><b>Search</b></td>
+      <td><b>Category</b></td>
+      <td><b>MyPage</b></td>
     </tr>
     <tr>
       <td><img src="./src/assets/readme/readme-home.gif" /></td>
