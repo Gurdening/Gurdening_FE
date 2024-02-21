@@ -69,12 +69,12 @@
       </td>
     </tr>
     <tr>
-      <td align="center" style="width:50%"><b>Home</b></td>
+      <td align="center" ><b>Home</b></td>
       <td align="center" style="width:50%"><b>Search</b></td>
     </tr>
     <tr>
-      <td><img src="./src/assets/readme/readme-home.gif" /></td>
-      <td><img src="./src/assets/readme/readme-search.gif" /></td>
+      <td><img src="./src/assets/readme/readme-home.gif" style="max-width: 100%; height: auto;" /></td>
+      <td><img src="./src/assets/readme/readme-search.gif" style="max-width: 100%; height: auto;" /></td>
     </tr>
     <tr>
       <td>
@@ -93,8 +93,8 @@
       <td align="center" style="width:50%"><b>MyPage</b></td>
     </tr>
     <tr>
-      <td><img src="./src/assets/readme/readme-category.gif" /></td>
-      <td><img src="./src/assets/readme/readme-mypage.gif" /></td>
+      <td><img src="./src/assets/readme/readme-category.gif" style="max-width: 100%; height: auto;" /></td>
+      <td><img src="./src/assets/readme/readme-mypage.gif" style="max-width: 100%; height: auto;" /></td>
     </tr>
     <tr>
       <td>
