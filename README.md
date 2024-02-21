@@ -78,20 +78,17 @@
     </tr>
   </table>
 
-<blockquote align="start">
-  <b>Home:</b> When the user enters our app, there is a 'Today's Recommendation Manual' banner and manual category on the main screen.<br/>
-  The navigation bar consists of homepages, browsing, categories, and my information.
-  <br/><br/>
-  <b>Search:</b> Click the Browse icon to search for manual writing.
-</blockquote>
-
+  <blockquote align="start">
+    <b>Home:</b> When the user enters our app, there is a 'Today's Recommendation Manual' banner and manual category on the main screen.<br/>
+    The navigation bar consists of homepages, browsing, categories, and my information.
+    <br/><br/>
+    <b>Search:</b> Click the Browse icon to search for manual writing.
+  </blockquote>
+  <br/>
   <table>
     <tr>
-      <td style="width:50%;">
-        There is a 'Today's Recommendation Manual' banner and manual category on the main screen.
-      </td>
-      <td style="width:50%;">
-        Click the Browse icon to search for manual writing.
+      <td colspan="2" align="center">
+        <b>Primary Feature</b>
       </td>
     </tr>
     <tr>
@@ -102,135 +99,113 @@
       <td><img src="./src/assets/readme/readme-category.gif"/></td>
       <td><img src="./src/assets/readme/readme-mypage.gif"/></td>
     </tr>
-    <tr>
-      <td style="width:50%;">
-        Click the Category icon to view the entire category.<br/>
-        You can also click each category to view the entire manual text that corresponds to it.
-      </td>
-      <td style="width:50%;">
-        Click the My Information icon to log in.<br/>
-        If you are logged in, you can use the History and Bookmark features.
-      </td>
-    </tr>
   </table>
+
+  <blockquote align="start">
+    <b>Category:</b> Click the Category icon to view the entire category.<br/>
+    You can also click each category to view the entire manual text that corresponds to it.
+    <br/><br/>
+    <b>MyPage:</b> Click the My Information icon to log in.<br/>
+    If you are logged in, you can use the History and Bookmark features.
+  </blockquote>
+  <br/><hr/>
   
-  ## Tech Stack
+# Tech Stack
+
+  <div align="center">
+  <!-- FE Stack -->
+    <table border=""4>
+      <th align="center">Role</th>
+      <th align="center" colspan="2">Framework</th>
+      <tr>
+        <td rowspan="4" align="center"><b>FE</td>
+        <td><img src="https://staging.svgrepo.com/show/354259/react.svg" width="16px" alt="_icon" />&nbsp;&nbsp;<b>React</b></td>
+        <td>User Interface Development</td>
+      </tr>
+      <tr>
+        <td><img src="https://www.daggala.com/static/228867c3668e439101821568a8a03b54/ec333/sc.png" width="16px" alt="_icon" />&nbsp;&nbsp;<b>Styled-Component</b></td>
+        <td>Component Styling</td>
+      </tr>
+      <tr>
+        <td><img src="https://pipedream.com/s.v0/app_XaLh2x/logo/orig" width="16px" alt="_icon" />&nbsp;&nbsp;<b>Vercel</td>
+        <td>Deployment and Hosting</td>
+      </tr>
+      <tr>
+        <td><img src="https://staging.svgrepo.com/show/349419/javascript.svg" width="16px" alt="_icon" />&nbsp;&nbsp;<b>JavaScript</td>
+        <td>Frontend Main Language</td>
+      </tr>
+      <!-- BE Stack -->
+      <tr>
+        <td rowspan="4" align="center"><b>BE</td>
+        <td><img src="https://user-images.githubusercontent.com/112257466/209075018-0a1f7f14-a910-4d16-a4e4-51929b99e1ae.png" width="16px" alt="_icon" />&nbsp;&nbsp;<b>Java17-Spring</td>
+        <td rowspan="2">Backend Server Framework</td>
+      </tr>
+      <tr>
+        <td><img src="https://user-images.githubusercontent.com/112257466/209075280-78be8487-7d6a-485c-92a8-d6677f0caab9.png" width="16px" alt="_icon" />&nbsp;&nbsp;<b>Spring Boot</td>
+      <tr>
+        <td><img src="https://user-images.githubusercontent.com/112257466/209078356-d9120e3d-9498-4ee4-a38d-139a263910f4.png" width="16px" alt="_icon" />&nbsp;&nbsp;<b>MySQL</td>
+        <td>Backend Main Database</td>
+      </tr>
+      <tr>
+        <td><img src="https://staging.svgrepo.com/show/354420/swagger.svg" width="16px" alt="_icon" />&nbsp;&nbsp;<b>Swagger</td>
+        <td>API Specification</td>
+      </tr>
+      <!-- Infra Stack -->
+      <tr>
+        <td rowspan="2" align="center"><b>Infra</td>
+        <td><img src="https://www.sophos.com/sites/default/files/2022-02/googlecloud.png" width="16px" alt="_icon" />&nbsp;&nbsp;<b>Google Cloud</td>
+        <td>Compute Engine, SQL</td>
+      </tr>
+        <tr>
+        <td><img src="https://staging.svgrepo.com/show/303670/firebase-1-logo.svg" width="16px" alt="_icon" />&nbsp;&nbsp;<b>Firebase</td>
+        <td>Image Hosting</td>
+      </tr>
+      <!-- Mobile Stack -->
+      <tr>
+        <td rowspan="2" align="center"><b>App</td>
+        <td><img src="https://staging.svgrepo.com/show/374035/reactts.svg" width="16px" alt="_icon" />&nbsp;&nbsp;<b>React Native</td>
+        <td>WebView App Interface Development</td>
+      </tr>
+      <tr>
+        <td><img src="https://staging.svgrepo.com/show/373753/light-expo.svg" width="16px" alt="_icon" />&nbsp;&nbsp;<b>Expo</td>
+        <td>Android Build and Deployment</td>
+      </tr>
+    </table>
+  </div>
+
+# Our architecture
+
+  <img src = "./src/assets/readme/readme_archi.png">
 
 </div>
-
-<div>
-  
-</div>
-
-  <h2>Our Selection Within the UN's 17 sustainable development goals</h2>
-
-<div align="center">
-  <div style = "display:flex;justify-content:center;gap:10px;align-items:center">
-  <img src = "./src/assets/images/BannerLogo.png" style = "width:250px" >
-  <h1 style = "display:flex;align-items:center;margin-top:25px"><b>Growmming/Gurdening</b></h1>
-  </div>
-  <div style = "display:flex;font-size:15px;justify-content:flex-start">
-    <h3><b>Gurdening - Guidelines for Children's Sociality and Dyslexia</b></h3>
-    
-  </div>
 <br/>
-    
-    
-| <a href="https://gurdening.vercel.app">View in Web</a> | <a href="https://gurdening.duckdns.org/swagger-ui/index.html">Documentation</a> | <a href="다운로드 링크">Download mobile app</a> |
-|:---------:|:---------:|:---------:|
+
+# Google Tech we use
+
+<h3>GCP was selected for server operations due to its flexibility in time and location,
+while Firebase was chosen for its simplicity in hosting images.</h3>
+<div style = "display:flex;gap:5px;">
+  <img src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=Google Cloud&logoColor=white">
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=Firebase&logoColor=white">
 </div>
-
-<hr/>
-<h2>Our Selection Within the UN's 17 sustainable development goals</h2>
-
-<div align = "center" style = "display:flex;justify-content:space-evenly;
-width:80%;margin:0 auto">
-    <img src = "https://developers.google.com/static/community/images/gdsc-solution-challenge/goal-04_480.png" style="width:250px"/>
-    <img src = "https://developers.google.com/static/community/images/gdsc-solution-challenge/goal-10_480.png" style="width:250px"/>
-</div>
-
-<h3>
-  We selected Goals No. 4 (Quality Education) and No. 10 (Reduced Inequalities) for our project. 
-</h3>
-
-This is because we thought that because our service produces 'educational resources', quality education could be solved, and inequality could be solved by providing it to children who are vulnerable to information.
-
-<hr/>
-
-## About our Project
-
-<div align="center">
- 
-<a href = "우리 유튜브 영상">[![](우리 ppt or 유튜브 이미지)](우리 유튜브 영상)
-</a>
-
-</div>
-
-<!-- TechStack -->
-
-## Tech Stack
-
-  <h3><b>Server</b></h3>
-    <div style = "display:flex;gap:5px;"><img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring-Boot&logoColor=white"></img>
-    <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-    <img src="https://img.shields.io/badge/Swagger-6DB33F?style=for-the-badge&logo=Swagger&logoColor=white">
-    <img src="https://img.shields.io/badge/Java-1E8CBE?style=for-the-badge&logo=Java&logoColor=white">
-    </div>
-
-  <br/>
-  <h3><b>Web</b></h3>
-    <div style = "display:flex;gap:5px;">
-    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
-    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=Vercel&logoColor=white">
-    <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
-    </div>
-  <br/>
-  <h3><b>Mobile</b></h3> <!--expo 추가요망-->
-    <div style = "display:flex;gap:5px;">
-    <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
-    <img src="https://img.shields.io/badge/Expo-000000?style=flat-square&logo=Expo&logoColor=white"/>
-    </div>
-
-<hr/>
-
-## Our architecture
-
-<img src = "./src/assets/readme/Gurdening_Archi.png">
-<!--![image](이미지 url)-->
-
-## Google Tech we use
-
-<h3> GCP was selected for server operations due to its flexibility in time and location,<br/>
-  while Firebase was chosen for its simplicity in hosting images.
-</h3>
-    <div style = "display:flex;gap:5px;">
-    <img src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=Google Cloud&logoColor=white">
-    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=Firebase&logoColor=white">
-    </div>
-  <br/>
+<br/>
 
 ## Google Cloud Platform
 
-GCP was used for user identification and safety of our service with flexible server operation and Google login support through OAuth2.
+<h4>GCP was used for user identification and safety of our service with flexible server operation and Google login support through OAuth2.</h4>
 
 ## Firebase
 
-Firebase was used to host images in the manual, which is the core of our service. This allows us to help users understand by providing them with a contextual picture.
-
-<hr />
-
-## Database ERD
-
-<img src = "./src/assets/readme/erd.png">
-<br/>
+<h4>Firebase was used to host images in the manual, which is the core of our service. This allows us to help users understand by providing them with a contextual picture.</h4>
 
 <hr/>
 
-## Features
+# Database ERD
 
+<img src = "./src/assets/readme/readme-erd.png"/>
 <hr/>
 
-## Current / Next Steps
+# Current / Next Steps
 
 | [O] Achievement                                                                        | [X] Scalability                                               |
 | :------------------------------------------------------------------------------------- | :------------------------------------------------------------ |
@@ -242,8 +217,6 @@ Firebase was used to host images in the manual, which is the core of our service
 | 6. Implementation of unlimited scrolling of manual writing                             |                                                               |
 
 <hr/>
-
-## Contributing
 
 # 👩🏻‍💻 Team of Growmming
 
@@ -262,10 +235,26 @@ Firebase was used to host images in the manual, which is the core of our service
     <td align="center">안준영</td>
   </tr>
   <tr>
-    <td><img src = "https://avatars.githubusercontent.com/u/101048129?v=4" style="width:230px"/></td>
-    <td><img src="https://avatars.githubusercontent.com/u/141125424?v=4" style="width:230px"/></td>
-    <td><img src="https://avatars.githubusercontent.com/u/112674378?v=4" style="width:230px"/></td>
-    <td><img src="https://avatars.githubusercontent.com/u/52746279?v=4" style="width:230px"/></td>
+    <td>
+      <a href="https://github.com/laketree2">
+        <img src="https://avatars.githubusercontent.com/u/101048129?v=4" style="width:230px"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/HarrySeop">
+        <img src="https://avatars.githubusercontent.com/u/141125424?v=4" style="width:230px"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/sojeong0202">
+        <img src="https://avatars.githubusercontent.com/u/112674378?v=4" style="width:230px"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/Junyeong-An">
+        <img src="https://avatars.githubusercontent.com/u/52746279?v=4" style="width:230px"/>
+      </a>
+    </td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/laketree2">@laketree2</a></td>
