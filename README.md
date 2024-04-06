@@ -132,7 +132,7 @@
       </tr>
       <!-- Infra Stack -->
       <tr>
-        <td rowspan="2" align="center"><b></td>
+        <td rowspan="2" align="center"><b>인프라</td>
         <td><img src="https://www.sophos.com/sites/default/files/2022-02/googlecloud.png" width="16px" alt="_icon" />&nbsp;&nbsp;<b>Google Cloud</td>
         <td>Compute Engine, SQL</td>
       </tr>
