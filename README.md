@@ -184,8 +184,8 @@
 <table>
 <thead>
   <tr>
-    <th colspan="2">Frontend</th>
-    <th colspan="2">Backend</th>
+    <th align="center" colspan="2">Frontend</th>
+    <th align="center" colspan="2">Backend</th>
   </tr>
 </thead>
 <tbody>
