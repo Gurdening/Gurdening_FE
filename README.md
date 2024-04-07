@@ -36,7 +36,7 @@
 
   <br/>
   <br/>
-
+<br/><hr/>
 
 # 서비스 소개
 
@@ -152,33 +152,14 @@
       </tr>
     </table>
   </div>
+  <br/><hr/>
 
 # 아키텍처
 
   <img src = "https://github.com/Growmming/Gurdening_Frontend/assets/141125424/21e8f511-ddd7-4d71-8e3b-e9e74097d2a7">
 
 </div>
-<br/>
-
-# 서비스의 차별점, 구글 기술 사용
-
-<h3>GCP was selected for server operations due to its flexibility in time and location,
-while Firebase was chosen for its simplicity in hosting images.</h3>
-<div style = "display:flex;gap:5px;">
-  <img src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=Google Cloud&logoColor=white">
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=Firebase&logoColor=white">
-</div>
-<br/>
-
-## Google Cloud Platform
-
-<h4>GCP was used for user identification and safety of our service with flexible server operation and Google login support through OAuth2.</h4>
-
-## Firebase
-
-<h4>Firebase was used to host images in the manual, which is the core of our service. This allows us to help users understand by providing them with a contextual picture.</h4>
-
-<hr/>
+<br/><hr/>
 
 # Database ERD
 
