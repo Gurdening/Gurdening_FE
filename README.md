@@ -166,19 +166,6 @@
 <img src = "https://github.com/Growmming/Gurdening_Frontend/assets/141125424/dfca7135-4e18-45bb-a91d-c3838010913e"/>
 <hr/>
 
-# Current / Next Steps
-
-| [O] Achievement                                                                        | [X] Scalability                                               |
-| :------------------------------------------------------------------------------------- | :------------------------------------------------------------ |
-| 1. manual articles produced by developers themselves                                   | 1. Increase the number of views when viewing manual articles  |
-| 2. Implementation of the manual banner recommended by the developer on the main screen | 2. Manual 'Like' function                                     |
-| 3. Directly to the corresponding manual via the main banner                            | 3. Google OAuth2 login function                               |
-| 4. Manual inquiry function                                                             | 4. Bookmark function to save the manual you want to see again |
-| 5. Manual search function                                                              |                                                               |
-| 6. Implementation of unlimited scrolling of manual writing                             |                                                               |
-
-<hr/>
-
 # 👩🏻‍💻 팀원 구성
 
 <table>
