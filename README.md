@@ -41,7 +41,8 @@
 # 서비스 소개
 
   <a href="https://www.youtube.com/watch?v=jngKF2TCtLg">
-    <img src="https://github.com/Growmming/Gurdening_Frontend/assets/141125424/c2fa0789-4576-4e9b-bad4-c103c4cc6886" style="width:90%"/>
+    <img src="https://github.com/Gurdening/Gurdening_FE/assets/101048129/4b139c5b-4a03-4856-b8f6-1d20235de2b7" style="width:90%"/>
+
   </a>
   <br/><br/>
   <table>
