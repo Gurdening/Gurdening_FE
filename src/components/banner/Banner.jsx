@@ -8,15 +8,15 @@ import * as S from './Banner.Style';
 const images = [
   {
     src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/applying_ointment_Banner.jpeg',
-    route: '/category/TREATMENT/84', //84
+    route: '/category/TREATMENT/249', //249
   },
   {
     src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/brushing_teeth_Banner.jpeg',
-    route: '/category/CLEANLINESS/82', //82
+    route: '/category/CLEANLINESS/247', //247
   },
   {
     src: 'https://storage.googleapis.com/example-gurdening-com/img/Banner/Boiling_an_egg_Banner.jpeg',
-    route: '/category/COOKING/76', //76
+    route: '/category/COOKING/241', //241
   },
 ];
 
